@@ -1,0 +1,144 @@
+{
+    "metadata": {
+        "entryPoint": "template_reporting_schemaRef",
+        "entity": {
+            "name": "Example Sustainability Corporation Ltd",
+            "identifier": "12345678901234567890",
+            "identifierScheme": "lei"
+        },
+        "reportingPeriod": {
+            "start": "2024-01-01",
+            "end": "2024-12-31"
+        },
+        "title": "Annual Sustainability Report 2024",
+        "subtitle": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME), released on 17 December 2024",
+        "currency": "EUR"
+    },
+    "namedRanges": {
+        "template_reporting_entity_name": "Example Sustainability Corporation Ltd",
+        "template_reporting_entity_identifier": "12345678901234567890",
+        "template_reporting_entity_identifier_scheme": "lei",
+        "template_reporting_period_startdate": "2024-01-01",
+        "template_reporting_period_enddate": "2024-12-31",
+        "template_reporting_title": "Annual Sustainability Report 2024",
+        "template_reporting_subtitle": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME), released on 17 December 2024",
+        "template_currency": "EUR",
+        
+        "ScopeOneGrossGhgEmissions": {
+            "value": 1250.5,
+            "unit": "tCO2e"
+        },
+        "ScopeTwoGrossGhgEmissions": {
+            "value": 850.3,
+            "unit": "tCO2e"
+        },
+        "ScopeThreeGrossGhgEmissions": {
+            "value": 2150.7,
+            "unit": "tCO2e"
+        },
+        "TotalGrossGhgEmissions": {
+            "value": 4251.5,
+            "unit": "tCO2e"
+        },
+        
+        "TotalEnergyConsumption": {
+            "value": 15500,
+            "unit": "MWh"
+        },
+        "RenewableEnergyConsumption": {
+            "value": 8750,
+            "unit": "MWh"
+        },
+        "NonRenewableEnergyConsumption": {
+            "value": 6750,
+            "unit": "MWh"
+        },
+        
+        "TotalWaterConsumption": {
+            "value": 12500,
+            "unit": "m3"
+        },
+        "WaterConsumptionInWaterStressedAreas": {
+            "value": 3200,
+            "unit": "m3"
+        },
+        
+        "TotalWasteGeneratedMass": {
+            "value": 450,
+            "unit": "t"
+        },
+        "TotalHazardousWasteGeneratedMass": {
+            "value": 25,
+            "unit": "t"
+        },
+        "TotalNonHazardousWasteGeneratedMass": {
+            "value": 425,
+            "unit": "t"
+        },
+        
+        "NumberOfEmployees": 250,
+        "NumberOfFemaleEmployees": 125,
+        "NumberOfMaleEmployees": 125,
+        
+        "WorkRelatedInjuries": 3,
+        "WorkRelatedInjuriesLeadingToFatalities": 0,
+        
+        "BoardMembersTotal": 7,
+        "BoardMembersFemale": 3,
+        "BoardMembersMale": 4,
+        
+        "ReportingOrganisationLegalForm": "private limited liability undertaking",
+        "ReportingOrganisationModulePreparation": "Option A (Basic Module only)",
+        "ReportingOrganisationTypeOfReport": "Sustainability report prepared on an individual basis"
+    },
+    
+    "tables": {
+        "EmployeeBreakdownTable": [
+            {
+                "Category": "Management",
+                "TotalEmployees": 25,
+                "FemaleEmployees": 12,
+                "MaleEmployees": 13
+            },
+            {
+                "Category": "Technical Staff",
+                "TotalEmployees": 150,
+                "FemaleEmployees": 75,
+                "MaleEmployees": 75
+            },
+            {
+                "Category": "Administrative Staff",
+                "TotalEmployees": 75,
+                "FemaleEmployees": 38,
+                "MaleEmployees": 37
+            }
+        ],
+        
+        "WasteByTypeTable": [
+            {
+                "WasteType": "Paper and Cardboard",
+                "Mass": 150,
+                "Unit": "t",
+                "Recycled": true
+            },
+            {
+                "WasteType": "Plastic",
+                "Mass": 75,
+                "Unit": "t",
+                "Recycled": true
+            },
+            {
+                "WasteType": "Electronic Waste",
+                "Mass": 12,
+                "Unit": "t",
+                "Recycled": true
+            },
+            {
+                "WasteType": "Chemical Waste",
+                "Mass": 25,
+                "Unit": "t",
+                "Recycled": false
+            }
+        ]
+    }
+}

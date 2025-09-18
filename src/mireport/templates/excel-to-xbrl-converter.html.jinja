@@ -7,12 +7,16 @@
 
 <!-- Info Section -->
 <div class="text-sm text-gray-700 space-y-2">
-  <p class="font-medium">Follow these steps to convert your VSME Digital Template to the XBRL format:</p>
+  <p class="font-medium">Follow these steps to convert your VSME data to the XBRL format:</p>
   <ol class="list-decimal list-inside space-y-1 pl-4">
-    <li>Download the <a href="https://xbrl.efrag.org/downloads/vsme/VSME-Digital-Template-latest.xlsx" class="text-blue-600 underline hover:text-blue-800">VSME Digital Template</a> provided by EFRAG (or test the <a href="https://xbrl.efrag.org/downloads/vsme/VSME-Digital-Template-sample-latest.xlsx" class="text-blue-600 underline hover:text-blue-800">sample report</a>).</li>
-    <li>Follow the instructions in the Digital Template and fill in the required disclosures in each worksheet. Before starting the conversion, ensure that the Overall Validation Status shows "OK".</li>
-    <li>Select the Digital Template file below and start the conversion. The conversion process may take a few minutes.</li>
-    <li>Review the generated XBRL report and the messages to ensure that all disclosures are complete and accurate.</li>
+    <li>
+      <strong>Excel Template:</strong> Download the <a href="https://xbrl.efrag.org/downloads/vsme/VSME-Digital-Template-latest.xlsx" class="text-blue-600 underline hover:text-blue-800">VSME Digital Template</a> provided by EFRAG (or test the <a href="https://xbrl.efrag.org/downloads/vsme/VSME-Digital-Template-sample-latest.xlsx" class="text-blue-600 underline hover:text-blue-800">sample report</a>). Follow the instructions and fill in the required disclosures.
+    </li>
+    <li>
+      <strong>JSON Format:</strong> Alternatively, prepare your data in JSON format using our <a href="{{ url_for('basic.api_schema') }}" class="text-blue-600 underline hover:text-blue-800">JSON schema</a> or <a href="{{ url_for('basic.api_example') }}" class="text-blue-600 underline hover:text-blue-800">example file</a>.
+    </li>
+    <li>Select your file (.xlsx or .json) below and start the conversion. The process may take a few minutes.</li>
+    <li>Review the generated XBRL report and messages to ensure all disclosures are complete and accurate.</li>
     <li>Download and save your converted XBRL files.</li>
   </ol>
 </div>
@@ -49,10 +53,15 @@
 
   <!-- Digital Template File -->
   <div>
-    <label for="file" class="block text-sm font-medium text-gray-700 mb-1">Choose the XLSX Digital Template file</label>
-    <input type="file" id="file" name="file" accept=".xlsx"
+    <label for="file" class="block text-sm font-medium text-gray-700 mb-1">Choose the Digital Template file</label>
+    <input type="file" id="file" name="file" accept=".xlsx,.json"
       class="block w-full text-sm text-gray-700 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
       required />
+    <div class="mt-1 text-xs text-gray-500">
+      Accepted formats: 
+      <span class="font-medium">.xlsx</span> (Excel Digital Template) or 
+      <span class="font-medium">.json</span> (JSON format)
+    </div>
   </div>
 
   <!-- Optional Corporate Logo -->

@@ -1,0 +1,163 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "VSME JSON Template Schema",
+    "description": "JSON schema for VSME (Voluntary Sustainability Reporting Standard for non-listed SMEs) data input",
+    "type": "object",
+    "required": ["metadata", "namedRanges"],
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "description": "Report metadata including entity and period information",
+            "required": ["entity", "reportingPeriod"],
+            "properties": {
+                "entryPoint": {
+                    "type": "string",
+                    "description": "XBRL taxonomy entry point URL",
+                    "format": "uri",
+                    "example": "template_reporting_schemaRef"
+                },
+                "entity": {
+                    "type": "object",
+                    "description": "Reporting entity information",
+                    "required": ["name", "identifier"],
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "description": "Legal name of the reporting entity",
+                            "example": "Example Corporation Ltd"
+                        },
+                        "identifier": {
+                            "type": "string",
+                            "description": "Unique identifier for the entity (LEI, DUNS, etc.)",
+                            "example": "123456789012345678"
+                        },
+                        "identifierScheme": {
+                            "type": "string",
+                            "description": "Identifier scheme (lei, duns, euid, permid)",
+                            "enum": ["lei", "duns", "euid", "permid"],
+                            "example": "lei"
+                        }
+                    }
+                },
+                "reportingPeriod": {
+                    "type": "object",
+                    "description": "Reporting period dates",
+                    "required": ["start", "end"],
+                    "properties": {
+                        "start": {
+                            "type": "string",
+                            "format": "date",
+                            "description": "Start date of reporting period (YYYY-MM-DD)",
+                            "example": "2024-01-01"
+                        },
+                        "end": {
+                            "type": "string",
+                            "format": "date",
+                            "description": "End date of reporting period (YYYY-MM-DD)",
+                            "example": "2024-12-31"
+                        }
+                    }
+                },
+                "title": {
+                    "type": "string",
+                    "description": "Report title",
+                    "default": "Sustainability Report",
+                    "example": "Annual Sustainability Report 2024"
+                },
+                "subtitle": {
+                    "type": "string",
+                    "description": "Report subtitle",
+                    "default": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME)",
+                    "example": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME), released on 17 December 2024"
+                },
+                "currency": {
+                    "type": "string",
+                    "description": "Monetary unit for the report (ISO 4217 currency code)",
+                    "pattern": "^[A-Z]{3}$",
+                    "default": "EUR",
+                    "example": "EUR"
+                }
+            }
+        },
+        "namedRanges": {
+            "type": "object",
+            "description": "Named ranges mapped to VSME taxonomy elements",
+            "patternProperties": {
+                "^[a-zA-Z][a-zA-Z0-9_]*$": {
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "description": "Text value"
+                        },
+                        {
+                            "type": "number",
+                            "description": "Numeric value"
+                        },
+                        {
+                            "type": "boolean",
+                            "description": "Boolean value"
+                        },
+                        {
+                            "type": "null",
+                            "description": "Null value"
+                        },
+                        {
+                            "type": "object",
+                            "description": "Complex value with unit and dimensions",
+                            "properties": {
+                                "value": {
+                                    "oneOf": [
+                                        {"type": "string"},
+                                        {"type": "number"},
+                                        {"type": "boolean"}
+                                    ]
+                                },
+                                "unit": {
+                                    "type": "string",
+                                    "description": "Unit of measurement"
+                                },
+                                "dimensions": {
+                                    "type": "object",
+                                    "description": "XBRL dimensions",
+                                    "patternProperties": {
+                                        "^[a-zA-Z][a-zA-Z0-9_:]*$": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "required": ["value"]
+                        }
+                    ]
+                }
+            },
+            "additionalProperties": false
+        },
+        "tables": {
+            "type": "object",
+            "description": "Table data for multi-dimensional facts",
+            "patternProperties": {
+                "^[a-zA-Z][a-zA-Z0-9_]*$": {
+                    "type": "array",
+                    "description": "Table rows",
+                    "items": {
+                        "type": "object",
+                        "description": "Table row with named columns",
+                        "patternProperties": {
+                            "^[a-zA-Z][a-zA-Z0-9_]*$": {
+                                "oneOf": [
+                                    {"type": "string"},
+                                    {"type": "number"},
+                                    {"type": "boolean"},
+                                    {"type": "null"}
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}
