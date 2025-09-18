@@ -1,0 +1,96 @@
+[project]
+name = "mireport"
+version = "1.1.0.dev0"
+description = "Converts a filled-in Excel template into an Inline XBRL Report"
+authors = [
+    {name = "Stuart Rowan", email = "stuart.rowan@efrag.org"},
+    {name = "Richard Bössen", email = "richard.boessen@efrag.org"},
+]
+
+dependencies = [
+    "aoix@git+https://code.blinkace.com/xbrl/aoix.git@feature-typed-dimensions",
+    "arelle-release>=2.37.37",
+    "babel>=2.17.0",
+    "flask-session",
+    "flask",
+    "ixbrl-viewer",
+    "msgpack",
+    "openpyxl",
+    "pillow>=11.3.0",
+    "pydantic>=2.10.0",
+    "python-dateutil",
+    "python-dotenv>=1.0.1",
+    "rich>=14.0.0",
+    "waitress",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.urls]
+"Source code" = "https://github.com/EFRAG-EU/Digital-Template-to-XBRL-Converter"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+# Allow use of git URLs in dependencies
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mireport"]
+
+[project.optional-dependencies]
+dev = [
+    "bandit>=1.8.0",
+    "black>=23.0.0",
+    "isort>=5.13.2",
+    "lxml-stubs",
+    "mypy>=1.16.1",
+    "pre-commit>=3.5.0",
+    "pytest-cov>=4.0.0",
+    "pytest>=7.0.0",
+    "ruff>=0.12.2",
+    "safety>=3.2.9",
+    "types-openpyxl",
+    "types-python-dateutil",
+    "types-Werkzeug",
+]
+
+redis = [
+    "flask-rq>=0.3.3",
+    "flask-session[redis]",
+]
+
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+markers = [
+    "integration: marks tests as integration tests",
+]
+addopts = [
+    "-ra -q",
+    "--import-mode=importlib",
+]
+
+[tool.mypy]
+python_version = "3.11"
+plugins = ["pydantic.mypy"]
+ignore_missing_imports = true
+check_untyped_defs = true
+disallow_untyped_defs = true
+exclude = [
+    "^tests/",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+indent-width = 4
+src = ["src"]
+
+[tool.ruff.lint]
+extend-select = ["I"]
