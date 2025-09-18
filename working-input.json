@@ -1,0 +1,208 @@
+{
+    "metadata": {
+        "entryPoint": "https://xbrl.efrag.org/taxonomy/vsme/2024-12-17/vsme-all.xsd",
+        "entity": {
+            "name": "Example Sustainability Corporation Ltd",
+            "identifier": "12345678901234567890",
+            "identifierScheme": "lei"
+        },
+        "reportingPeriod": {
+            "start": "2024-01-01",
+            "end": "2024-12-31"
+        },
+        "title": "Annual Sustainability Report 2024",
+        "subtitle": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME), released on 30 July 2025",
+        "currency": "EUR"
+    },
+    "namedRanges": {
+        "template_reporting_entity_name": "Example Sustainability Corporation Ltd",
+        "template_reporting_entity_identifier": "12345678901234567890",
+        "template_reporting_entity_identifier_scheme": "http://standards.iso.org/iso/17442",
+        "template_reporting_title": "Annual Sustainability Report 2024",
+        "template_reporting_subtitle": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME)",
+        "template_currency": "EUR",
+        "template_reporting_period_startdate": "2024-01-01",
+        "template_reporting_period_enddate": "2024-12-31",
+        "template_reporting_schemaRef": "https://xbrl.efrag.org/taxonomy/vsme/2024-12-17/vsme-all.xsd",
+
+        "BasisForPreparation": "Option B (Basic Module and Comprehensive Module)",
+        "BasisForReporting": "Sustainability report prepared on a consolidated basis",
+        "UndertakingsLegalForm": "private limited liability undertaking",
+
+        "Assets": {
+            "value": 600000.0,
+            "unit": "EUR"
+        },
+        "Turnover": {
+            "value": 235000.0,
+            "unit": "EUR"
+        },
+        "NumberOfEmployees": 151,
+
+        "GrossScope1GreenhouseGasEmissions": {
+            "value": 100.0,
+            "unit": "tCO2e"
+        },
+        "GrossLocationBasedScope2GreenhouseGasEmissions": {
+            "value": 50.0,
+            "unit": "tCO2e"
+        },
+        "GrossScope3GreenhouseGasEmissions": {
+            "value": 700.0,
+            "unit": "tCO2e"
+        },
+        "TotalGrossLocationBasedScope1AndScope2GHGEmissions": {
+            "value": 150.0,
+            "unit": "tCO2e"
+        },
+        "TotalGrossLocationBasedGHGEmissions": {
+            "value": 850.0,
+            "unit": "tCO2e"
+        },
+
+        "TotalEnergyConsumption": {
+            "value": 250.0,
+            "unit": "MWh"
+        },
+        "EnergyConsumptionFromElectricity": {
+            "value": 110.0,
+            "unit": "MWh"
+        },
+        "EnergyConsumptionFromSelfGeneratedElectricity": {
+            "value": 43.0,
+            "unit": "MWh"
+        },
+        "EnergyConsumptionFromFuels": {
+            "value": 76.5,
+            "unit": "MWh"
+        },
+
+        "TotalAmountOfWaterWithdrawnFromAllSites": {
+            "value": 742.5,
+            "unit": "m3"
+        },
+        "TotalWaterConsumption": {
+            "value": 642.5,
+            "unit": "m3"
+        },
+        "WaterDischargeFromUndertakingProductionProcesses": {
+            "value": 100.0,
+            "unit": "m3"
+        },
+
+        "TotalHazardousWasteGeneratedMass": {
+            "value": 1200.0,
+            "unit": "kg"
+        },
+        "TotalNonHazardousWasteGeneratedMass": {
+            "value": 2850000.0,
+            "unit": "kg"
+        },
+        "TotalWasteGeneratedMass": {
+            "value": 2851200.0,
+            "unit": "kg"
+        },
+
+        "NumberOfPermanentContactEmployees": 110,
+        "NumberOfTemporaryContractEmployees": 41,
+        "NumberOfMaleEmployees": 55,
+        "NumberOfFemaleEmployees": 40,
+        "NumberOfOtherGenderEmployees": 5,
+        "NumberOfNonReportedGenderEmployees": 51,
+
+        "EmployeeTurnoverRate": 0.2841,
+        "NumberOfRecordableWorkRelatedAccidentsInTheReportingPeriod": 0,
+        "RateOfRecordableWorkRelatedAccidentsInTheReportingPeriod": 0.0,
+        "NumberOfFatalitiesAsAResultOfWorkRelatedInjuriesAndWorkRelatedIllHealth": 0,
+
+        "EmployeesReceivePayEqualOrAboveMinimumWageDeterminedByNationalLawOrCollectiveAgreement": true,
+        "PercentageGapInPayBetweenFemaleAndMaleEmployees": 0.1,
+        "PercentageOfEmployeesCoveredByCollectiveBargainingAgreements": 0.9272,
+
+        "AverageNumberOfAnnualTrainingHoursPerMaleEmployee": 100.0,
+        "AverageNumberOfAnnualTrainingHoursPerFemaleEmployee": 150.0,
+        "AverageNumberOfAnnualTrainingHoursPerOtherGenderEmployee": 140.0,
+        "AverageNumberOfAnnualTrainingHoursPerNonReportedGenderEmployee": 120.0,
+
+        "TotalNumberOfConvictionsForTheViolationOfAntiCorruptionAndAntiBriberyLaws": 1,
+        "TotalAmountOfFinesForTheViolationOfAnticorruptionAndAntibriberyLaws": {
+            "value": 5000.0,
+            "unit": "EUR"
+        },
+
+        "UndertakingAppliesCircularEconomyPrinciples": false,
+        "UndertakingHasACodeOfConductOrHumanRightsPolicyForItsOwnWorkforce": true,
+        "UndertakingHasAComplaintHandlingMechanismForItsOwnWorkforce": true,
+        "UndertakingHasConfirmedHumanRightsIncidentsInItsOwnWorkforce": false,
+
+        "CountryOfPrimaryOperationsAndLocationOfSignificantAssets": "IT",
+        "DescriptionOfSustainabilityRelatedCertificationsOrLabels": "ISO 14001, EMAS certification for environmental management",
+        "DescriptionOfSignificantGroupsOfProductsAndOrServicesOffered": "Sustainable consumer products and environmental consulting services",
+        "DescriptionOfSignificantMarketsTheUndertakingOperatesIn": "European Union market with focus on Italy and neighboring countries",
+        "DescriptionOfMainBusinessRelationships": "Strategic partnerships with environmental organizations and sustainable suppliers",
+        "DescriptionOfKeyElementsOfStrategyThatRelatesToOrAffectsSustainabilityIssues": "Commitment to carbon neutrality by 2030 and circular economy principles"
+    },
+
+    "tables": {
+        "EmployeeBreakdownTable": [
+            {
+                "Category": "Management",
+                "TotalEmployees": 25,
+                "FemaleEmployees": 12,
+                "MaleEmployees": 13
+            },
+            {
+                "Category": "Technical Staff",
+                "TotalEmployees": 76,
+                "FemaleEmployees": 38,
+                "MaleEmployees": 38
+            },
+            {
+                "Category": "Administrative Staff",
+                "TotalEmployees": 50,
+                "FemaleEmployees": 25,
+                "MaleEmployees": 25
+            }
+        ],
+
+        "WasteByTypeTable": [
+            {
+                "WasteType": "Paper and Cardboard",
+                "Mass": 1500,
+                "Unit": "kg",
+                "Recycled": true
+            },
+            {
+                "WasteType": "Electronic Waste",
+                "Mass": 400,
+                "Unit": "kg",
+                "Recycled": true
+            },
+            {
+                "WasteType": "Chemical Waste",
+                "Mass": 800,
+                "Unit": "kg",
+                "Recycled": false
+            }
+        ],
+
+        "EnergyConsumptionBreakdown": [
+            {
+                "EnergyType": "Electricity - Renewable",
+                "Consumption": 33,
+                "Unit": "MWh"
+            },
+            {
+                "EnergyType": "Electricity - Non-Renewable",
+                "Consumption": 120,
+                "Unit": "MWh"
+            },
+            {
+                "EnergyType": "Fuels - Renewable",
+                "Consumption": 76.5,
+                "Unit": "MWh"
+            }
+        ]
+    }
+}
+

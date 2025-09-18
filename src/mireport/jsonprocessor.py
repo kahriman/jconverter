@@ -354,7 +354,7 @@ class JsonProcessor:
                 end_date = parse_datetime(period_info['end']).date()
                 
                 # Create named period (following ExcelProcessor pattern)
-                self._report.addNamedPeriod("cur", start_date, end_date)
+                self._report.addDurationPeriod("cur", start_date, end_date)
                 
                 self._results.addMessage(
                     f"Created reporting period from {start_date} to {end_date}",
@@ -422,8 +422,9 @@ class JsonProcessor:
                                 # Map common unit strings to QNames
                                 unit_mappings = {
                                     'tCO2e': 'utr:tCO2e',
-                                    'MWh': 'utr:MWh', 
+                                    'MWh': 'utr:MWh',
                                     't': 'utr:t',
+                                    'kg': 'utr:kg',
                                     'm3': 'utr:m3',
                                     'ha': 'utr:ha',
                                     '%': 'xbrli:pure',
@@ -507,6 +508,7 @@ class JsonProcessor:
                     
                     if enum_concept:
                         fb.setHiddenValue(enum_concept.expandedName)
+                        fb.setValue(str_value)  # Set the original value as the fact value
                     else:
                         self._results.addMessage(
                             f"Could not find enumeration member for value '{str_value}' in concept {concept.qname}",

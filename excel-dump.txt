@@ -1,0 +1,1438 @@
+/Users/muratkahriman/Documents/Cloud/jconverter/.venv/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+/Users/muratkahriman/Documents/Cloud/jconverter/.venv/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Conditional Formatting extension is not supported and will be removed
+  warn(msg)
+Opened digital-templates/VSME-Digital-Template-Sample-1.0.1.xlsx
+Found sheets:
+	Cover Page Template Sample
+	Introduction
+	Table of Contents & Validation
+	General Information
+	Environmental Disclosures
+	Social Disclosures
+	Governance Disclosures
+	Fuel Converter
+	Fuel Conversion Parameters
+	Unit Of Measurement Converter
+	Licence
+	Enumeration Lists
+	Technical Sheet
+Found 300 named ranges to query for data.
+Queried all named ranges and found 300 non-empty ranges in 14.16 ms.
+AddressOfSite: (25 cells in range)
+	Duomo Square
+	None
+	None
+	None
+	None
+	... supressed 15 rows...
+	None
+	None
+	None
+	None
+	None
+AmountOfEmissionToAir: (120 cells in range)
+	567
+	None
+	None
+	None
+	None
+	... supressed 110 rows...
+	None
+	None
+	None
+	None
+	None
+AmountOfEmissionToAir_unit: (1 cells in range)
+	metric tonnes (t)
+AmountOfEmissionToSoil: (40 cells in range)
+	None
+	67
+	None
+	None
+	None
+	... supressed 30 rows...
+	None
+	None
+	None
+	None
+	None
+AmountOfEmissionToSoil_unit: (1 cells in range)
+	metric tonnes (t)
+AmountOfEmissionToWater: (40 cells in range)
+	None
+	None
+	567
+	None
+	None
+	... supressed 30 rows...
+	None
+	None
+	None
+	None
+	None
+AmountOfEmissionToWater_unit: (1 cells in range)
+	metric tonnes (t)
+AmountOfEmissionsTable: (320 cells in range)
+	Alachlor
+	None
+	None
+	567
+	None
+	... supressed 310 rows...
+	None
+	None
+	None
+	None
+	None
+AmountOfWaterWithdrawnAtSitesLocatedInAreasOfHighWaterStress: (1 cells in range)
+	150
+AreaOfSiteInBiodiversitySensitiveArea: (78 cells in range)
+	1200
+	None
+	None
+	None
+	None
+	... supressed 68 rows...
+	None
+	None
+	None
+	None
+	None
+AreaOfSiteInBiodiversitySensitiveArea_unit: (1 cells in range)
+	squared meters (m2)
+Assets: (1 cells in range)
+	600000
+AverageNumberOfAnnualTrainingHoursPerFemaleEmployee: (1 cells in range)
+	150
+AverageNumberOfAnnualTrainingHoursPerMaleEmployee: (1 cells in range)
+	100
+AverageNumberOfAnnualTrainingHoursPerNonReportedGenderEmployee: (1 cells in range)
+	120
+AverageNumberOfAnnualTrainingHoursPerOtherGenderEmployee: (1 cells in range)
+	140
+BaselineYearMember: (1 cells in range)
+	2020
+BasisForPreparation: (1 cells in range)
+	Option B (Basic Module and Comprehensive Module)
+BasisForReporting: (1 cells in range)
+	Sustainability report prepared on a consolidated basis
+BreakdownOfAnnualMassFlowOfRelevantMaterialsUsedByTheUndertakingHypercube: (105 cells in range)
+	1
+	Packaging, boxes for produce/meat
+	None
+	None
+	1500
+	... supressed 95 rows...
+	None
+	None
+	None
+	None
+	None
+BreakdownOfEnergyConsumptionAxis: (12 cells in range)
+	Electricity (as reflected in utility billings)
+	None
+	None
+	None
+	Self-generated electricity 
+	... supressed 2 rows...
+	None
+	Fuels (see Fuel Converter on Fuels worksheet)
+	None
+	None
+	None
+BreakdownOfEnergyConsumptionTable: (15 cells in range)
+	10
+	None
+	None
+	100
+	110
+	... supressed 5 rows...
+	76.5000612
+	None
+	None
+	0.00021402794900000002
+	76.500275227949
+CityOfSite: (25 cells in range)
+	Milan
+	None
+	None
+	None
+	None
+	... supressed 15 rows...
+	None
+	None
+	None
+	None
+	None
+CountryOfEmploymentContractAxis: (20 cells in range)
+	Italy
+	None
+	Belgium
+	None
+	Albania
+	... supressed 10 rows...
+	None
+	None
+	None
+	None
+	None
+CountryOfPrimaryOperationsAndLocationOfSignificantAssets: (1 cells in range)
+	Italy
+CountryOfSite: (25 cells in range)
+	Italy
+	None
+	None
+	None
+	None
+	... supressed 15 rows...
+	None
+	None
+	None
+	None
+	None
+DateOfAdoptionOfTransitionPlanForUndertakingNotHavingAdoptedTransitionPlanYet: (1 cells in range)
+	2028-01-01
+DescriptionOfATargetRelatedToAPolicy: (1 cells in range)
+	(all cells empty)
+DescriptionOfATransitionPlanForClimateChangeMitigationIncludingAnExplanationOfHowItIsContributingToReduceGhgEmissions: (1 cells in range)
+	(all cells empty)
+DescriptionOfActionsTakeToAddressTheConfirmedIncidents: (1 cells in range)
+	(all cells empty)
+DescriptionOfClimateRelatedHazardsAndClimateRelatedTransitionEvents: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+DescriptionOfHowCircularEconomyPrinciplesAreApplied: (1 cells in range)
+	(all cells empty)
+DescriptionOfKeyElementsOfStrategyThatRelatesToOrAffectsSustainabilityIssues: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+ 
+DescriptionOfLimitsToTheDistributionOfProfitsConnectedToTheMutualisticNatureOrToTheNatureOfTheActivitiesConsistingInServicesOfGeneralEconomicInterestSGEI: (1 cells in range)
+	(all cells empty)
+DescriptionOfMainBusinessRelationships: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+ 
+DescriptionOfPracticesPoliciesAndOrFutureInitiatives: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+ 
+DescriptionOfSignificantGroupsOfProductsAndOrServicesOffered: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+ 
+DescriptionOfSignificantMarketsTheUndertakingOperatesIn: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+ 
+DescriptionOfSustainabilityRelatedCertificationsOrLabels: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+DescriptionOfTheEffectiveParticipationOfWorkersUsersOrOtherinterestedPartiesOrCommunitiesInGovernance: (1 cells in range)
+	(all cells empty)
+DisclosureOfAnyOtherEnvironmentalAndOrEntitySpecificEnvironmentalDisclosures: (1 cells in range)
+	(all cells empty)
+DisclosureOfAnyOtherGeneralAndOrEntitySpecificInformation: (1 cells in range)
+	(all cells empty)
+DisclosureOfAnyOtherGovernanceAndOrEntitySpecificGovernanceDisclosures: (1 cells in range)
+	(all cells empty)
+DisclosureOfAnyOtherSocialAndOrEntitySpecificSocialDisclosures: (1 cells in range)
+	(all cells empty)
+DisclosureOfHowItHasAssessedTheExposureAndSensitivityOfItsAssetsActivitiesAndValueChainToTheseHazardsAndTransitionEvents: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+DisclosureOfListOfMainActionsTheEntitySeeksInOrderToAchieveItsTargets: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+ 
+DisclosureOfWhetherItHasUndertakenClimateChangeAdaptationActionsForAnyClimateRelatedHazardsAndTransitionEvents: (1 cells in range)
+	NO
+EmployeeCountingMethodology: (1 cells in range)
+	As an average across the reporting period
+EmployeeTurnoverRate: (1 cells in range)
+	0.2840909090909091
+EmployeesReceivePayEqualOrAboveMinimumWageDeterminedByNationalLawOrCollectiveAgreement: (1 cells in range)
+	YES
+EnergyConsumptionFromElectricity_NonRenewableEnergyMember: (1 cells in range)
+	100
+EnergyConsumptionFromElectricity_RenewableEnergyMember: (1 cells in range)
+	10
+EnergyConsumptionFromElectricity_TotalRenewableAndNonRenewableEnergyMember: (1 cells in range)
+	110
+EnergyConsumptionFromFuels_NonRenewableEnergyMember: (1 cells in range)
+	0.00021402794900000002
+EnergyConsumptionFromFuels_RenewableEnergyMember: (1 cells in range)
+	76.5000612
+EnergyConsumptionFromFuels_TotalRenewableAndNonRenewableEnergyMember: (1 cells in range)
+	76.500275227949
+EnergyConsumptionFromSelfGeneratedElectricity_NonRenewableEnergyMember: (1 cells in range)
+	20
+EnergyConsumptionFromSelfGeneratedElectricity_RenewableEnergyMember: (1 cells in range)
+	23
+EnergyConsumptionFromSelfGeneratedElectricity_TotalRenewableAndNonRenewableEnergyMember: (1 cells in range)
+	43
+FemaleToMaleRatioAtManagementLevelForTheReportingPeriod: (1 cells in range)
+	0.8
+FinancialInvestmentInTheCapitalOrAssetsOfSocialEconomyEntities: (1 cells in range)
+	(all cells empty)
+GPSLocationOfSite: (25 cells in range)
+	45.4639102,9.1906426
+	-
+	-
+	-
+	-
+	... supressed 15 rows...
+	-
+	-
+	-
+	-
+	-
+GenderDiversityRatioInGovernanceBody: (1 cells in range)
+	2.5
+GreenhouseGasEmissionReductionTargetBaseYear: (1 cells in range)
+	2020
+GreenhouseGasEmissionReductionTargetYear: (1 cells in range)
+	2030
+GrossLocationBasedScope2GreenhouseGasEmissions: (1 cells in range)
+	50
+GrossLocationBasedScope2GreenhouseGasEmissions_BaselineYearMember: (1 cells in range)
+	75
+GrossLocationBasedScope2GreenhouseGasEmissions_TargetYearMember: (1 cells in range)
+	15
+GrossMarketBasedScope2GreenhouseGasEmissions: (1 cells in range)
+	(all cells empty)
+GrossMarketBasedScope2GreenhouseGasEmissions_BaselineYearMember: (1 cells in range)
+	(all cells empty)
+GrossMarketBasedScope2GreenhouseGasEmissions_TargetYearMember: (1 cells in range)
+	(all cells empty)
+GrossScope1GreenhouseGasEmissions: (1 cells in range)
+	100
+GrossScope1GreenhouseGasEmissions_BaselineYearMember: (1 cells in range)
+	150
+GrossScope1GreenhouseGasEmissions_TargetYearMember: (1 cells in range)
+	75
+GrossScope3GreenhouseGasEmissions_BaselineYearMember: (1 cells in range)
+	700
+GrossScope3GreenhouseGasEmissions_CurrentlyStatedMember: (1 cells in range)
+	700
+GrossScope3GreenhouseGasEmissions_TargetYearMember: (1 cells in range)
+	300
+IdentifierOfMaterialTypedAxis: (15 cells in range)
+	1
+	2
+	3
+	4
+	5
+	... supressed 5 rows...
+	11
+	12
+	13
+	14
+	15
+IdentifierOfSiteTypedAxis: (25 cells in range)
+	1
+	2
+	3
+	4
+	5
+	... supressed 15 rows...
+	21
+	22
+	23
+	24
+	25
+IdentifierOfSitesInBiodiversitySensitiveAreasTypedAxis: (26 cells in range)
+	1
+	None
+	None
+	None
+	None
+	... supressed 16 rows...
+	None
+	None
+	None
+	None
+	None
+IdentifierOfSubsidiaryTypedAxis: (25 cells in range)
+	1
+	2
+	3
+	4
+	5
+	... supressed 15 rows...
+	21
+	22
+	23
+	24
+	25
+LinkToPreviousReportContainingDisclosuresThatRemainUnchanged: (1 cells in range)
+	www.Test.Report.com
+ListOfDisclosuresForWhichNoChangesAreReportedComparedToThePreviousPeriodReporting: (10 cells in range)
+	B2 – Practices, policies and future initiatives for transitioning towards a more sustainable economy
+	B3 – Energy and greenhouse gas emissions
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+ListOfOmittedDisclosuresDeemedToBeClassifiedOrSensitiveInformation: (9 cells in range)
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+ListOfSitesTable: (150 cells in range)
+	1
+	Duomo Square
+	20122
+	Milan
+	Italy
+	... supressed 140 rows...
+	None
+	None
+	None
+	None
+	-
+ListOfSubsidiaryTable: (75 cells in range)
+	1
+	Company XYZ Subsidiary 1
+	Street XYZ, City, Country
+	2
+	None
+	... supressed 65 rows...
+	None
+	None
+	25
+	None
+	None
+MostSeniorLevelAccountableForImplementationOfPracticesPoliciesAndOrFutureInitiatives: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+ 
+NaceSectorClassificationCodes: (15 cells in range)
+	NACE G - 47.22 Retail sale of meat and meat products
+	NACE G - 47.21 Retail sale of fruit and vegetables
+	None
+	None
+	None
+	... supressed 5 rows...
+	None
+	None
+	None
+	None
+	None
+NameOfMaterialUsed: (45 cells in range)
+	Packaging, boxes for produce/meat
+	None
+	None
+	Wrapping, trays, containers
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+NameOfTheSubsidiary: (25 cells in range)
+	Company XYZ Subsidiary 1
+	None
+	None
+	None
+	None
+	... supressed 15 rows...
+	None
+	None
+	None
+	None
+	None
+NumberOfEmployees: (1 cells in range)
+	151
+NumberOfEmployeesForCountryOfEmploymentContract: (40 cells in range)
+	140
+	None
+	None
+	None
+	1
+	... supressed 30 rows...
+	None
+	None
+	None
+	None
+	None
+NumberOfEmployeesForCountryOfEmploymentContractTable: (60 cells in range)
+	Italy
+	None
+	140
+	None
+	None
+	... supressed 50 rows...
+	None
+	None
+	None
+	None
+	None
+NumberOfFatalitiesAsAResultOfWorkRelatedInjuriesAndWorkRelatedIllHealth: (1 cells in range)
+	0
+NumberOfFemaleEmployees: (1 cells in range)
+	40
+NumberOfMaleEmployees: (1 cells in range)
+	55
+NumberOfNonReportedGenderEmployees: (1 cells in range)
+	51
+NumberOfOtherGenderEmployees: (1 cells in range)
+	5
+NumberOfPermanentContactEmployees: (1 cells in range)
+	110
+NumberOfRecordableWorkRelatedAccidentsInTheReportingPeriod: (1 cells in range)
+	0
+NumberOfTemporaryContractEmployees: (1 cells in range)
+	41
+OtherUndertakingsLegalForm: (1 cells in range)
+	(all cells empty)
+PercentageGapInPayBetweenFemaleAndMaleEmployees: (1 cells in range)
+	0.1
+PercentageOfEmployeesCoveredByCollectiveBargainingAgreements: (1 cells in range)
+	0.9271523178807947
+PostalCodeOfSite: (25 cells in range)
+	20122
+	None
+	None
+	None
+	None
+	... supressed 15 rows...
+	None
+	None
+	None
+	None
+	None
+PotentialAdverseEffectsOfClimateRisksThatMayAffectItsFinancialPerformanceOrBusinessOperationsInTheShortMediumOrLongTermIndicatingWhetherItAssessesTheRisksToBeHighMediumOrLow: (1 cells in range)
+	(all cells empty)
+PracticePolicyAndOrFutureInitiativeIsPubliclyAvailable: (1 cells in range)
+	True
+PubliclyAvailableDisclosure: (1 cells in range)
+	False
+RateOfRecordableWorkRelatedAccidentsInTheReportingPeriod: (1 cells in range)
+	0
+RegisteredAddressOfTheSubsidiary: (25 cells in range)
+	Street XYZ, City, Country
+	None
+	None
+	None
+	None
+	... supressed 15 rows...
+	None
+	None
+	None
+	None
+	None
+ReportContainsDisclosuresFromThePreviousReportingPeriodThatRemainUnchanged: (1 cells in range)
+	True
+RevenueDerivedFromChemicalProduction: (1 cells in range)
+	(all cells empty)
+RevenueDerivedFromCoal: (1 cells in range)
+	(all cells empty)
+RevenueDerivedFromControversialWeaponsAntiPersonnelMinesClusterMunitionsChemicalWeaponsAndBiologicalWeapons: (1 cells in range)
+	(all cells empty)
+RevenueDerivedFromCultivationAndProductionOfTobacco: (1 cells in range)
+	(all cells empty)
+RevenueDerivedFromGas: (1 cells in range)
+	(all cells empty)
+RevenueDerivedFromOil: (1 cells in range)
+	(all cells empty)
+Scope1AndScope2GreenhouseGasEmissionsIntensityValueLocationBased: (1 cells in range)
+	-
+Scope1AndScope2GreenhouseGasEmissionsIntensityValueMarketBased: (1 cells in range)
+	-
+SiteLocatedInABiodiversitySensitiveArea: (26 cells in range)
+	True
+	False
+	False
+	False
+	False
+	... supressed 16 rows...
+	False
+	False
+	False
+	False
+	False
+SiteLocatedNearABiodiversitySensitiveArea: (26 cells in range)
+	False
+	False
+	False
+	False
+	False
+	... supressed 16 rows...
+	False
+	False
+	False
+	False
+	False
+SitesInBiodiversitySensitiveAreasTable: (234 cells in range)
+	1
+	Italy Milan Duomo Square
+	None
+	None
+	1200
+	... supressed 224 rows...
+	None
+	None
+	None
+	False
+	False
+SpecificationOfAnyConfirmedIncidentInvolvingWorkersInTheValueChainAffectedCommunitiesConsumersAndEndUsers: (1 cells in range)
+	(all cells empty)
+SpecificationOfOtherHumanRightsRelatedToTheConfirmedIncident: (1 cells in range)
+	(all cells empty)
+SpecificationOfOtherTypesOfContentCoveredByTheCodeOfConductOrHumanRightsPolicy: (1 cells in range)
+	(all cells empty)
+SustainabilityIssueAddressedByPracticePolicyAndOrFutureInitiative: (10 cells in range)
+	True
+	False
+	True
+	False
+	True
+	False
+	True
+	False
+	True
+	False
+TargetYearMember: (1 cells in range)
+	2030
+TimeHorizonsOfAnyClimateRelatedHazardsAndTransitionEventsIdentified: (1 cells in range)
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+TotalAmountOfFinesForTheViolationOfAnticorruptionAndAntibriberyLaws: (1 cells in range)
+	5000
+TotalAmountOfWaterWithdrawnFromAllSites: (1 cells in range)
+	742.5
+TotalEnergyConsumption: (1 cells in range)
+	250
+TotalGrossLocationBasedGHGEmissions_BaselineYearMember: (1 cells in range)
+	925
+TotalGrossLocationBasedGHGEmissions_CurrentlyStatedMember: (1 cells in range)
+	850
+TotalGrossLocationBasedGHGEmissions_TargetYearMember: (1 cells in range)
+	390
+TotalGrossLocationBasedScope1AndScope2GHGEmissions: (1 cells in range)
+	150
+TotalGrossLocationBasedScope1AndScope2GHGEmissions_BaselineYearMember: (1 cells in range)
+	225
+TotalGrossLocationBasedScope1AndScope2GHGEmissions_TargetYearMember: (1 cells in range)
+	90
+TotalGrossMarketBasedGHGEmissions_BaselineYearMember: (1 cells in range)
+	-
+TotalGrossMarketBasedGHGEmissions_CurrentlyStatedMember: (1 cells in range)
+	-
+TotalGrossMarketBasedGHGEmissions_TargetYearMember: (1 cells in range)
+	-
+TotalGrossMarketBasedScope1AndScope2GHGEmissions: (1 cells in range)
+	-
+TotalGrossMarketBasedScope1AndScope2GHGEmissions_BaselineYearMember: (1 cells in range)
+	-
+TotalGrossMarketBasedScope1AndScope2GHGEmissions_TargetYearMember: (1 cells in range)
+	-
+TotalHazardousWasteGeneratedMass: (3 cells in range)
+	1200
+	None
+	None
+TotalHazardousWasteGeneratedMass_unit: (3 cells in range)
+	kilograms (kg)
+	None
+	None
+TotalHazardousWasteGeneratedVolume: (3 cells in range)
+	100
+	None
+	None
+TotalHazardousWasteGeneratedVolume_unit: (3 cells in range)
+	cubic meters (m³)
+	None
+	None
+TotalLocationBasedGreenhouseGasEmissionsIntensityValue: (1 cells in range)
+	0.003617021276595745
+TotalMarketBasedGreenhouseGasEmissionsIntensityValue: (1 cells in range)
+	-
+TotalMassOfMaterialUsed: (1 cells in range)
+	1500
+TotalMassOfMaterialUsed_unit: (1 cells in range)
+	kilograms (kg)
+TotalNatureOrientedAreaOffSite: (3 cells in range)
+	(all cells empty)
+TotalNatureOrientedAreaOffSite_unit: (1 cells in range)
+	(all cells empty)
+TotalNatureOrientedAreaOnSite: (3 cells in range)
+	(all cells empty)
+TotalNatureOrientedAreaOnSite_unit: (1 cells in range)
+	(all cells empty)
+TotalNonHazardousWasteGeneratedMass: (3 cells in range)
+	2850000
+	None
+	None
+TotalNonHazardousWasteGeneratedMass_unit: (3 cells in range)
+	kilograms (kg)
+	None
+	None
+TotalNonHazardousWasteGeneratedVolume: (3 cells in range)
+	5000
+	None
+	None
+TotalNonHazardousWasteGeneratedVolume_unit: (3 cells in range)
+	cubic meters (m³)
+	None
+	None
+TotalNumberOfConvictionsForTheViolationOfAntiCorruptionAndAntiBriberyLaws: (1 cells in range)
+	1
+TotalNumberOfSelfEmployedWorkersWithoutPersonnelThatAreWorkingExclusivelyForTheUndertaking: (1 cells in range)
+	4
+TotalNumberOfTemporaryWorkersProvidedByUndertakingsPrimarilyEngagedInEmploymentActivities: (1 cells in range)
+	50
+TotalRevenuesDerivedFromFossilFuelCoalOilAndGasSector: (1 cells in range)
+	-
+TotalSealedArea: (3 cells in range)
+	(all cells empty)
+TotalSealedArea_unit: (1 cells in range)
+	(all cells empty)
+TotalUseOfLand: (3 cells in range)
+	(all cells empty)
+TotalUseOfLand_unit: (1 cells in range)
+	(all cells empty)
+TotalVolumeOfMaterialUsed: (1 cells in range)
+	800
+TotalVolumeOfMaterialUsed_unit: (1 cells in range)
+	cubic meters (m³)
+TotalWasteGeneratedMass: (3 cells in range)
+	2851200
+	None
+	None
+TotalWasteGeneratedMass_unit: (3 cells in range)
+	kilograms (kg)
+	None
+	None
+TotalWasteGeneratedVolume: (3 cells in range)
+	5100
+	None
+	None
+TotalWasteGeneratedVolume_unit: (3 cells in range)
+	cubic meters (m³)
+	None
+	None
+TotalWasteRecycledReusedAndDirectedToDisposalMass: (15 cells in range)
+	1500
+	1200
+	700
+	400
+	250
+	... supressed 5 rows...
+	-
+	-
+	-
+	-
+	-
+TotalWasteRecycledReusedAndDirectedToDisposalMass_unit: (45 cells in range)
+	metric tonnes (t)
+	None
+	None
+	kilograms (kg)
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+TotalWasteRecycledReusedAndDirectedToDisposalVolume: (15 cells in range)
+	1500
+	1200
+	700
+	400
+	250
+	... supressed 5 rows...
+	-
+	-
+	-
+	-
+	-
+TotalWasteRecycledReusedAndDirectedToDisposalVolume_unit: (45 cells in range)
+	metric tonnes (t)
+	None
+	None
+	kilograms (kg)
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+TotalWaterConsumption: (1 cells in range)
+	642.5
+Turnover: (1 cells in range)
+	235000
+TypeOfContentCoveredByTheCodeOfConductOrHumanRightsPolicyForItsOwnWorkforce: (30 cells in range)
+	True
+	None
+	None
+	None
+	None
+	... supressed 20 rows...
+	False
+	None
+	None
+	None
+	None
+TypeOfHumanRightRelatedToTheConfirmedIncident: (25 cells in range)
+	False
+	None
+	None
+	None
+	None
+	... supressed 15 rows...
+	False
+	None
+	None
+	None
+	None
+TypeOfNumberOfEmployees: (1 cells in range)
+	Full-time equivalent (FTE)
+TypeOfPollutantAxis: (120 cells in range)
+	Alachlor
+	None
+	None
+	Anthracene
+	None
+	... supressed 110 rows...
+	None
+	None
+	None
+	None
+	None
+TypeOfWasteAxis: (45 cells in range)
+	        200101 Non-Hazardous Waste - Paper and cardboard
+	None
+	None
+	        160806 Hazardous Waste - Spent liquids used as catalysts
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+URLOrLinkToThePubliclyAvailableDisclosure: (1 cells in range)
+	(all cells empty)
+UndertakingAppliesCircularEconomyPrinciples: (1 cells in range)
+	NO
+UndertakingHasACodeOfConductOrHumanRightsPolicyForItsOwnWorkforce: (1 cells in range)
+	YES
+UndertakingHasAComplaintHandlingMechanismForItsOwnWorkforce: (1 cells in range)
+	YES
+UndertakingHasConfirmedHumanRightsIncidentsInItsOwnWorkforce: (1 cells in range)
+	NO
+UndertakingHasSetATargetWhichIsRelatedToAPolicy: (1 cells in range)
+	False
+UndertakingIsAwareOfAnyConfirmedIncidentsInvolvingWorkersInTheValueChainAffectedCommunitiesConsumersAndEndUsers: (1 cells in range)
+	NO
+UndertakingsAreExcludedFromAnyEuReferenceBenchmarksThatAreAlignedWithTheParisAgreement: (1 cells in range)
+	NO
+UndertakingsLegalForm: (1 cells in range)
+	private limited liability undertaking
+VolumeOfMaterialUsed: (45 cells in range)
+	1500
+	None
+	None
+	800
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+VolumeOfMaterialUsed_unit: (15 cells in range)
+	kilograms (kg)
+	cubic meters (m3)
+	None
+	None
+	None
+	... supressed 5 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDirectedToDisposalMass: (15 cells in range)
+	300
+	400
+	200
+	100
+	150
+	... supressed 5 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDirectedToDisposalMass_unit: (45 cells in range)
+	metric tonnes (t)
+	None
+	None
+	kilograms (kg)
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDirectedToDisposalVolume: (15 cells in range)
+	300
+	400
+	200
+	100
+	150
+	... supressed 5 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDirectedToDisposalVolume_unit: (45 cells in range)
+	metric tonnes (t)
+	None
+	None
+	kilograms (kg)
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDivertedToRecycleOrReuseMass: (15 cells in range)
+	1200
+	800
+	500
+	300
+	100
+	... supressed 5 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDivertedToRecycleOrReuseMass_unit: (45 cells in range)
+	metric tonnes (t)
+	None
+	None
+	kilograms (kg)
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDivertedToRecycleOrReuseVolume: (15 cells in range)
+	1200
+	800
+	500
+	300
+	100
+	... supressed 5 rows...
+	None
+	None
+	None
+	None
+	None
+WasteDivertedToRecycleOrReuseVolume_unit: (45 cells in range)
+	metric tonnes (t)
+	None
+	None
+	kilograms (kg)
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+WasteTable: (135 cells in range)
+	        200101 Non-Hazardous Waste - Paper and cardboard
+	None
+	None
+	metric tonnes (t)
+	None
+	... supressed 125 rows...
+	None
+	None
+	None
+	None
+	-
+WaterDischargeFromUndertakingProductionProcesses: (1 cells in range)
+	100
+WeightOfMaterialUsed: (45 cells in range)
+	1500
+	None
+	None
+	800
+	None
+	... supressed 35 rows...
+	None
+	None
+	None
+	None
+	None
+WeightOfMaterialUsed_unit: (15 cells in range)
+	kilograms (kg)
+	cubic meters (m3)
+	None
+	None
+	None
+	... supressed 5 rows...
+	None
+	None
+	None
+	None
+	None
+enum_B2: (3 cells in range)
+	Practice
+	Policy
+	Future Initiative
+enum_ImplementationStatus: (2 cells in range)
+	Adoption of a transition plan is planned in the future
+	A transition plan has already been adopted
+enum_ListBiodiversityArea: (2 cells in range)
+	Located in biodiversity sensitive areas
+	Located near biodiversity sesnistive areas
+enum_ListCountiesCode: (256 cells in range)
+	AD
+	AE
+	AF
+	AG
+	AI
+	... supressed 246 rows...
+	YU
+	ZA
+	ZM
+	ZR
+	ZW
+enum_ListCountriesName: (256 cells in range)
+	Andorra
+	United Arab Emirates
+	Afghanistan
+	Antigua and Barbuda
+	Anguilla
+	... supressed 246 rows...
+	Yugoslavia (before 2003-07-23)
+	South Africa
+	Zambia
+	Zaire (before 1997-07-14)
+	Zimbabwe
+enum_ListDays: (31 cells in range)
+	1
+	2
+	3
+	4
+	5
+	... supressed 21 rows...
+	27
+	28
+	29
+	30
+	31
+enum_ListDensity: (8 cells in range)
+	g/L
+	Kg/L
+	t/L
+	Gg/L
+	g/m³
+	Kg/m³
+	t/m³
+	Gg/m³
+enum_ListEnergy: (2 cells in range)
+	TJ - Terajoule
+	MWh - Megawatt hours
+enum_ListFuel: (60 cells in range)
+	Anthracite
+	Aviation gasoline
+	Biodiesel
+	Biogasoline
+	Bitumen
+	... supressed 50 rows...
+	Other 6
+	Other 7
+	Other 8
+	Other 9
+	Other 10
+enum_ListHectM2: (2 cells in range)
+	hectares (ha)
+	squared meters (m2)
+enum_ListIdentifier: (4 cells in range)
+	LEI
+	DUNS
+	EU ID
+	PermID
+enum_ListLegalForms: (5 cells in range)
+	private limited liability undertaking
+	sole proprietorship
+	partnership
+	cooperative
+	other (please specify the legal form in the row below)
+enum_ListMass: (4 cells in range)
+	Gg - Gigagram
+	t - tonne
+	Kg - Kilogram
+	g - gram
+enum_ListMediumOfRelease: (3 cells in range)
+	Water
+	Air
+	Soil
+enum_ListMonth: (12 cells in range)
+	1
+	2
+	3
+	4
+	5
+	... supressed 2 rows...
+	8
+	9
+	10
+	11
+	12
+enum_ListNACECategories: (398 cells in range)
+	NACE A - 01 Crop and animal production, hunting and related service activities
+	NACE A - 01.1 Growing of non-perennial crops
+	NACE A - 01.2 Growing of perennial crops
+	NACE A - 01.3 Plant propagation
+	NACE A - 01.4 Animal production
+	... supressed 388 rows...
+	NACE U - 98.2 Undifferentiated service-producing activities of private households for own use
+	NACE U - ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS AND UNDIFFERENTIATED GOODS – AND SERVICE-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE
+	NACE V - 99 Activities of extraterritorial organisations and bodies
+	NACE V - 99.0 Activities of extraterritorial organisations and bodies
+	NACE V - ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES
+enum_ListNACECode: (1047 cells in range)
+	A - AGRICULTURE, FORESTRY AND FISHING
+	A - 01 Crop and animal production, hunting and related service activities
+	A - 01.1 Growing of non-perennial crops
+	A - 01.11 Growing of cereals, other than rice, leguminous crops and oil seeds
+	A - 01.12 Growing of rice
+	... supressed 1037 rows...
+	U - 98.20 Undifferentiated service-producing activities of private households for own use
+	V - ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES
+	V - 99 Activities of extraterritorial organisations and bodies
+	V - 99.0 Activities of extraterritorial organisations and bodies
+	V - 99.00 Activities of extraterritorial organisations and bodies
+enum_ListNACETechnicalName: (1047 cells in range)
+	NACE A - AGRICULTURE, FORESTRY AND FISHING
+	NACE A - 01 Crop and animal production, hunting and related service activities
+	NACE A - 01.1 Growing of non-perennial crops
+	NACE A - 01.11 Growing of cereals, other than rice, leguminous crops and oil seeds
+	NACE A - 01.12 Growing of rice
+	... supressed 1037 rows...
+	NACE U - 98.20 Undifferentiated service-producing activities of private households for own use
+	NACE V - ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES
+	NACE V - 99 Activities of extraterritorial organisations and bodies
+	NACE V - 99.0 Activities of extraterritorial organisations and bodies
+	NACE V - 99.00 Activities of extraterritorial organisations and bodies
+enum_ListNCV: (12 cells in range)
+	J/g
+	J/Kg
+	J/t
+	J/Gg
+	KJ/g
+	... supressed 2 rows...
+	KJ/Gg
+	TJ/t
+	TJ/Gg
+	MWh/g
+	MWh/Kg
+enum_ListOfCurrencies: (169 cells in range)
+	AED
+	AFN
+	ALL
+	AMD
+	ANG
+	... supressed 159 rows...
+	XSU
+	XUA
+	YER
+	ZAR
+	ZMW
+enum_ListOfFutureYears: (77 cells in range)
+	2024
+	2025
+	2026
+	2027
+	2028
+	... supressed 67 rows...
+	2096
+	2097
+	2098
+	2099
+	2100
+enum_ListOfPastYears: (25 cells in range)
+	2000
+	2001
+	2002
+	2003
+	2004
+	... supressed 15 rows...
+	2020
+	2021
+	2022
+	2023
+	2024
+enum_ListOmittedDisclosures: (20 cells in range)
+	B1 – Basis for preparation
+	B2 – Practices, policies and future initiatives for transitioning towards a more sustainable economy
+	B3 – Energy and greenhouse gas emissions
+	B4 – Pollution of air, water and soil
+	B5 – Biodiversity
+	... supressed 10 rows...
+	C5 – Additional (general) workforce characteristics
+	C6 – Additional own workforce information - Human rights policies and processes
+	C7 – Severe negative human rights incidents
+	C8 – Revenues from certain sectors and exclusion from EU reference benchmarks
+	C9 – Gender diversity ratio in the governance body
+enum_ListOmittedDisclosuresWithNone: (21 cells in range)
+	None
+	B1 – Basis for preparation
+	B2 – Practices, policies and future initiatives for transitioning towards a more sustainable economy
+	B3 – Energy and greenhouse gas emissions
+	B4 – Pollution of air, water and soil
+	... supressed 11 rows...
+	C5 – Additional (general) workforce characteristics
+	C6 – Additional own workforce information - Human rights policies and processes
+	C7 – Severe negative human rights incidents
+	C8 – Revenues from certain sectors and exclusion from EU reference benchmarks
+	C9 – Gender diversity ratio in the governance body
+enum_ListPollutants: (94 cells in range)
+	Alachlor
+	Aldrin
+	Ammonia (NH3)
+	Anthracene
+	Arsenic and compounds (As)
+	... supressed 84 rows...
+	Trifluralin
+	Triphenyltin and compounds
+	Vinyl chloride
+	Xylenes
+	Zinc and compounds (Zn)
+enum_ListRenewabilityState: (3 cells in range)
+	Renewable
+	Non-renewable
+	None
+enum_ListStateOfMatter: (4 cells in range)
+	Solid
+	Liquid
+	Gaseous
+	None
+enum_ListSustainabilityIssues: (11 cells in range)
+	Climate change
+	Pollution
+	Water and marine resources
+	Biodiversity and ecosystems
+	Circular economy
+	... supressed 1 rows...
+	Workers in the value chain
+	Affected communities
+	Consumers and end-users
+	Business conduct
+	Other
+enum_ListTypeOfWastes: (819 cells in range)
+	01 WASTES RESULTING FROM EXPLORATION, MINING, DRESSING AND FURTHER TREATMENT OF MINERALS AND QUARRY
+	    0101 Wastes from mineral excavation
+	        010101 Non-Hazardous Waste - Waste from mineral metalliferous excavation
+	        010102 Non-Hazardous Waste - Waste from mineral non-metalliferous excavation
+	    0102 Wastes from mineral dressing
+	... supressed 809 rows...
+	    2003 Other municipal wastes
+	        200301 Non-Hazardous Waste - Mixed municipal waste
+	        200302 Non-Hazardous Waste - Waste from markets
+	        200303 Non-Hazardous Waste - Street cleaning residues
+	        200304 Non-Hazardous Waste - Septic tank sludge
+enum_ListUnitMeasurement: (3 cells in range)
+	kilograms (kg)
+	metric tonnes (t)
+	cubic meters (m3)
+enum_ListUnitMeasurement_mass_only: (2 cells in range)
+	kilograms (kg)
+	metric tonnes (t)
+enum_ListVolume: (2 cells in range)
+	m³ - cubic meters
+	L - Liter
+enum_ListVolumeMass: (6 cells in range)
+	Gg - Gigagram
+	t - tonne
+	Kg - Kilogram
+	g - gram
+	m³ - cubic meters
+	L - Liter
+enum_ListWasteCategories: (132 cells in range)
+	01 WASTES RESULTING FROM EXPLORATION, MINING, DRESSING AND FURTHER TREATMENT OF MINERALS AND QUARRY
+	    0101 Wastes from mineral excavation
+	    0102 Wastes from mineral dressing
+	    0103 Wastes from further physical and chemical processing of metalliferous minerals
+	    0104 Wastes from further physical and chemical processing on non-metalliferous minerals
+	... supressed 122 rows...
+	    1910 Wastes from shredding of metal-containing waste
+	20 MUNICIPAL WASTES AND SIMILAR COMMERCIAL, INDUSTRIAL AND INSTITUTIONAL WASTES INCLUDING SEPARATELY COLLECTED FRACTIONS
+	    2001 Separately collected fractions
+	    2002 Garden and park wastes (including cemetery waste)
+	    2003 Other municipal wastes
+enum_ListYear: (101 cells in range)
+	2000
+	2001
+	2002
+	2003
+	2004
+	... supressed 91 rows...
+	2096
+	2097
+	2098
+	2099
+	2100
+enum_ListYesNo: (2 cells in range)
+	YES
+	NO
+enum_employee_methodology: (2 cells in range)
+	At the end of the reporting period
+	As an average across the reporting period
+template_FUEL_CONVERTER: (1 cells in range)
+	FUEL CONVERTER
+template_b10_workforce_remuneration_collective_bargaining_and_training: (1 cells in range)
+	B10 – Workforce – Remuneration, collective bargaining and training from 2024-01-01 to 2024-12-31 [Always to be reported + If applicable]
+template_b11_convictions_and_fines_for_corruption_and_bribery: (1 cells in range)
+	B11 – Convictions and fines for corruption and bribery from 2024-01-01 to 2024-12-31 [If applicable]
+template_b1_basis_for_preparation_and_other_undertakings_general_information: (1 cells in range)
+	B1 - Basis for Preparation and other undertaking's general information from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_b1_disclosure_of_sustainability_related_certifications_or_labels: (1 cells in range)
+	B1 - Disclosure of sustainability-related certification(s) or label(s) from 2024-01-01 to 2024-12-31 [If applicable]
+template_b1_list_of_sites: (1 cells in range)
+	B1 - List of site(s) from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_b1_list_of_subsidiaries: (1 cells in range)
+	B1 - List of subsidiaries from 2024-01-01 to 2024-12-31 [If applicable]
+template_b2_cooperative_specific_disclosures: (1 cells in range)
+	B2 - Cooperative specific disclosures from 2024-01-01 to 2024-12-31 [If applicable]
+template_b2_practices_policies_and_future_initiatives_for_transitioning_towards_a_more_sustainable_economy: (1 cells in range)
+	B2 – Practices, policies and future initiatives for transitioning towards a more sustainable economy from 2024-01-01 to 2024-12-31 [If applicable]
+template_b3_breakdown_of_energy_consumption_in_MWh: (1 cells in range)
+	B3 - Breakdown of energy consumption (in MWh) from 2024-01-01 to 2024-12-31 [If applicable]
+template_b3_estimated_greenhouse_gas_emissions_considering_the_GHG_protocol_version_2004_in_tCO2e: (1 cells in range)
+	B3 - Estimated Greenhouse Gas Emissions considering the GHG Protocol Version 2004 (in tCO2e) [Always to be reported]
+template_b3_greenhouse_gas_emission_intensity_per_turnover: (1 cells in range)
+	B3 - Greenhouse gas emission intensity per turnover (in tCO2e/EUR) from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_b3_total_energy_consumption_in_MWh: (1 cells in range)
+	B3 - Total Energy Consumption (in MWh) from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_b4_pollution_of_air_water_and_soil: (1 cells in range)
+	B4 – Pollution of air, water and soil from 2024-01-01 to 2024-12-31 [If applicable]
+template_b5_biodiversity_land_use: (1 cells in range)
+	B5 - Biodiversity - Land-use  from 2024-01-01 to 2024-12-31  [May (optional)]
+template_b5_sites_in_biodiversity_sensitive_areas: (1 cells in range)
+	B5 - Sites in biodiversity sensitive areas from 2024-01-01 to 2024-12-31 [If applicable]
+template_b6_water_consumption: (1 cells in range)
+	B6 - Water Consumption from 2024-01-01 to 2024-12-31 [If applicable]
+template_b6_water_withdrawal: (1 cells in range)
+	B6 - Water Withdrawal from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_b7_annual_mass_flow_of_relevant_materials_used: (1 cells in range)
+	B7 – Annual mass-flow of relevant materials used from 2024-01-01 to 2024-12-31 [If applicable]
+template_b7_description_of_circular_economy_principles: (1 cells in range)
+	B7 - Description of circular economy principles from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_b7_waste_generated: (1 cells in range)
+	B7 - Waste generated from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_b8_workforce_general_characteristics_country_of_employment: (1 cells in range)
+	B8 – Workforce – General characteristics - Country of employment  [If applicable]
+template_b8_workforce_general_characteristics_gender: (1 cells in range)
+	B8 – Workforce – General characteristics - Gender  [Always to be reported]
+template_b8_workforce_general_characteristics_turnover_rate: (1 cells in range)
+	B8 – Workforce – General characteristics - Turnover rate from 2024-01-01 to 2024-12-31 [If applicable]
+template_b8_workforce_general_characteristics_type_of_contract: (1 cells in range)
+	B8 – Workforce – General characteristics - Type of contract  [Always to be reported]
+template_b9_workforce_health_and_safety: (1 cells in range)
+	B9 – Workforce – Health and safety from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_c1_strategy_business_model_and_sustainability: (1 cells in range)
+	C1 – Strategy: Business Model and Sustainability – Related Initiatives from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_c2_description_of_practices_policies_and_future_initiatives_for_transitioning_towards_a_more_sustainable_economy: (1 cells in range)
+	C2 – Description of practices, policies and future initiatives for transitioning towards a more sustainable economy from 2024-01-01 to 2024-12-31 [If applicable linked with B2]
+template_c3_GHG_reduction_targets_in_tC02e: (1 cells in range)
+	C3 - GHG reduction targets (in tC02e) [If applicable]
+template_c3_disclosure_of_list_of_main_actions_the_entity_seeks_in_order_to_achieve_its_targets: (1 cells in range)
+	C3 - Disclosure of list of main actions the entity seeks in order to achieve its targets from 2024-01-01 to 2024-12-31 [If applicable]
+template_c3_transition_plan_for_undertakings_operating_in_high_climate_impact_sectors: (1 cells in range)
+	C3 - Transition plan for undertakings operating in high climate impact sectors from 2024-01-01 to 2024-12-31 [If applicable]
+template_c4_climate_risks: (1 cells in range)
+	C4 – Climate risks from 2024-01-01 to 2024-12-31 [If applicable]
+template_c5_additional_general_workforce_characteristics: (1 cells in range)
+	C5 – Additional (general) workforce characteristics from 2024-01-01 to 2024-12-31 [May (optional)]
+template_c6_additional_own_workforce_information_human_rights_policies_and_processes: (1 cells in range)
+	C6 – Additional own workforce information - Human rights policies and processes from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_c7_severe_negative_human_rights_incidents: (1 cells in range)
+	C7 – Severe negative human rights incidents from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_c8_exclusion_from_EU_reference_benchmarks: (1 cells in range)
+	C8 – Exclusion from EU reference benchmarks from 2024-01-01 to 2024-12-31 [Always to be reported]
+template_c8_revenues_from_certain_sectors: (1 cells in range)
+	C8 – Revenues from certain activities from 2024-01-01 to 2024-12-31 [If applicable]
+template_c9_gender_diversity_ratio_in_the_governance_body: (1 cells in range)
+	C9 – Gender diversity ratio in the governance body at 2024-12-31  [If applicable]
+template_currency: (1 cells in range)
+	EUR
+template_disclosure_of_any_other_environmental_and_or_entity_specific_enviromental_disclosures: (1 cells in range)
+	Disclosure of any other environmental and/or entity specific enviromental disclosures from 2024-01-01 to 2024-12-31 [May (optional)] 
+template_disclosure_of_any_other_general_and_or_entity_specific_information_on_the_reporting_period: (1 cells in range)
+	Disclosure of any other general and/or entity specific information on the reporting period from 2024-01-01 to 2024-12-31 [May (optional)] 
+template_disclosure_of_any_other_governance_and_or_entity_specific_governance_disclosures: (1 cells in range)
+	Disclosure of any other governance and/or entity specific governance disclosures from 2024-01-01 to 2024-12-31  [May (optional)] 
+template_disclosure_of_any_other_social_and_or_entity_specific_social_disclosures: (1 cells in range)
+	Disclosure of any other social and/or entity specific social disclosures from 2024-01-01 to 2024-12-31 [May (optional)] 
+template_ending_date_display: (1 cells in range)
+	at 2024-12-31
+template_further_notes: (1 cells in range)
+	Further notes:
+template_information_on_previous_reporting_period: (1 cells in range)
+	Information on previous reporting period
+template_information_on_the_report_necessary_for_XBRL: (1 cells in range)
+	Information on the report necessary for  XBRL  [Always to be reported]
+template_overall_validation_status: (1 cells in range)
+	COMPLETE
+template_reporting_entity_identifier: (1 cells in range)
+	TestCode1234
+template_reporting_entity_identifier_scheme: (1 cells in range)
+	LEI
+template_reporting_entity_name: (2 cells in range)
+	Company XYZ
+	None
+template_reporting_period_display: (1 cells in range)
+	from 2024-01-01 to 2024-12-31
+template_reporting_period_enddate: (1 cells in range)
+	2024-12-31
+template_reporting_period_startdate: (1 cells in range)
+	2024-01-01
+template_reporting_schemaRef: (1 cells in range)
+	https://xbrl.efrag.org/taxonomy/vsme/2024-12-17/vsme-all.xsd
+template_reporting_template_version: (1 cells in range)
+	1.0.1
+Finished dumping Excel named ranges (0.02 seconds elapsed).
