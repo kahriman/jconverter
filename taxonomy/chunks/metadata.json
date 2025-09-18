@@ -1,0 +1,20 @@
+{
+    "entryPoint": null,
+    "namespaces": {
+        "country": "https:\/\/xbrl.org\/2024\/iso3166",
+        "dtr-types": "http:\/\/www.xbrl.org\/dtr\/type\/2022-03-31",
+        "enum2": "http:\/\/xbrl.org\/2020\/extensible-enumerations-2.0",
+        "label-code": "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role-label-code",
+        "link": "http:\/\/www.xbrl.org\/2003\/linkbase",
+        "nace": "https:\/\/xbrl.efrag.org\/taxonomy\/nace\/2025-01-01",
+        "net": "http:\/\/www.xbrl.org\/2009\/role\/net",
+        "property-part": "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/property-part",
+        "ref": "http:\/\/www.xbrl.org\/2006\/ref",
+        "vsme": "https:\/\/xbrl.efrag.org\/taxonomy\/vsme\/2024-12-17\/vsme",
+        "waste": "https:\/\/xbrl.efrag.org\/taxonomy\/waste\/2023-12-06\/waste",
+        "xbrldt": "http:\/\/xbrl.org\/2005\/xbrldt",
+        "xbrli": "http:\/\/www.xbrl.org\/2003\/instance",
+        "xl": "http:\/\/www.xbrl.org\/2003\/XLink",
+        "xlink": "http:\/\/www.w3.org\/1999\/xlink"
+    }
+}

@@ -8,6 +8,10 @@ GET http://localhost:5002/api/schema - JSON-Schema abrufen
 GET http://localhost:5002/api/example - Beispiel-JSON-Datei abrufen
 
 ## Command-Line Tools nutzen:
+
+source .venv/bin/activate && python3 ./scripts/parse-json-and-ixbrl.py working-input-02.json claude-output-02.html
+
+
 cd /Users/muratkahriman/Documents/Cloud/jconverter
 source .venv/bin/activate
 python3 ./scripts/parse-json-and-ixbrl.py working-input.json output.html

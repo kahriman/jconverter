@@ -1,0 +1,247 @@
+{
+  "summary": {
+    "total_concepts_in_output": 105,
+    "total_concepts_in_working_input": 50,
+    "concepts_present_in_both": 50,
+    "missing_concepts_count": 55,
+    "coverage_percentage": 47.6
+  },
+  "missing_concepts_by_category": {
+    "site_and_location": [
+      "vsme:CountryOfSite",
+      "vsme:RegisteredAddressOfTheSubsidiary",
+      "vsme:PostalCodeOfSite",
+      "vsme:NumberOfEmployeesForCountryOfEmploymentContract",
+      "vsme:CityOfSite",
+      "vsme:TotalLocationBasedGreenhouseGasEmissionsIntensityValue",
+      "vsme:GPSLocationOfSite",
+      "vsme:AreaOfSiteInBiodiversitySensitiveArea",
+      "vsme:SustainabilityIssueAddressedByPracticePolicyAndOrFutureInitiative",
+      "vsme:AddressOfSite",
+      "vsme:SiteLocatedInABiodiversitySensitiveArea",
+      "vsme:AmountOfWaterWithdrawnAtSitesLocatedInAreasOfHighWaterStress"
+    ],
+    "materials_and_waste": [
+      "vsme:VolumeOfMaterialUsed",
+      "vsme:WasteDivertedToRecycleOrReuseVolume",
+      "vsme:WasteDirectedToDisposalMass",
+      "vsme:TotalHazardousWasteGeneratedVolume",
+      "vsme:TotalMassOfMaterialUsed",
+      "vsme:TotalVolumeOfMaterialUsed",
+      "vsme:WasteDivertedToRecycleOrReuseMass",
+      "vsme:NameOfMaterialUsed",
+      "vsme:WasteDirectedToDisposalVolume",
+      "vsme:TotalWasteRecycledReusedAndDirectedToDisposalMass",
+      "vsme:TotalWasteGeneratedVolume",
+      "vsme:TotalWasteRecycledReusedAndDirectedToDisposalVolume",
+      "vsme:TotalNonHazardousWasteGeneratedVolume",
+      "vsme:WeightOfMaterialUsed"
+    ],
+    "climate_and_environment": [
+      "vsme:DisclosureOfWhetherItHasUndertakenClimateChangeAdaptationActionsForAnyClimateRelatedHazardsAndTransitionEvents",
+      "vsme:GreenhouseGasEmissionReductionTargetBaseYear",
+      "vsme:AmountOfEmissionToWater",
+      "vsme:DateOfAdoptionOfTransitionPlanForUndertakingNotHavingAdoptedTransitionPlanYet",
+      "vsme:GreenhouseGasEmissionReductionTargetYear",
+      "vsme:DescriptionOfClimateRelatedHazardsAndClimateRelatedTransitionEvents",
+      "vsme:DisclosureOfHowItHasAssessedTheExposureAndSensitivityOfItsAssetsActivitiesAndValueChainToTheseHazardsAndTransitionEvents",
+      "vsme:DisclosureOfListOfMainActionsTheEntitySeeksInOrderToAchieveItsTargets",
+      "vsme:TimeHorizonsOfAnyClimateRelatedHazardsAndTransitionEventsIdentified",
+      "vsme:AmountOfEmissionToSoil",
+      "vsme:AmountOfEmissionToAir"
+    ],
+    "reporting_and_compliance": [
+      "vsme:NaceSectorClassificationCodes",
+      "vsme:FemaleToMaleRatioAtManagementLevelForTheReportingPeriod",
+      "vsme:UndertakingsAreExcludedFromAnyEuReferenceBenchmarksThatAreAlignedWithTheParisAgreement",
+      "vsme:LinkToPreviousReportContainingDisclosuresThatRemainUnchanged",
+      "vsme:ListOfDisclosuresForWhichNoChangesAreReportedComparedToThePreviousPeriodReporting",
+      "vsme:NameOfTheSubsidiary",
+      "vsme:ReportContainsDisclosuresFromThePreviousReportingPeriodThatRemainUnchanged",
+      "vsme:ListOfOmittedDisclosuresDeemedToBeClassifiedOrSensitiveInformation"
+    ],
+    "governance_and_management": [
+      "vsme:MostSeniorLevelAccountableForImplementationOfPracticesPoliciesAndOrFutureInitiatives",
+      "vsme:GenderDiversityRatioInGovernanceBody"
+    ],
+    "employee_and_workforce": [
+      "vsme:TotalNumberOfTemporaryWorkersProvidedByUndertakingsPrimarilyEngagedInEmploymentActivities",
+      "vsme:TotalNumberOfSelfEmployedWorkersWithoutPersonnelThatAreWorkingExclusivelyForTheUndertaking",
+      "vsme:UndertakingIsAwareOfAnyConfirmedIncidentsInvolvingWorkersInTheValueChainAffectedCommunitiesConsumersAndEndUsers",
+      "vsme:TypeOfNumberOfEmployees",
+      "vsme:TypeOfContentCoveredByTheCodeOfConductOrHumanRightsPolicyForItsOwnWorkforce",
+      "vsme:EmployeeCountingMethodology"
+    ],
+    "targets_and_plans": [
+      "vsme:PracticePolicyAndOrFutureInitiativeIsPubliclyAvailable",
+      "vsme:DescriptionOfPracticesPoliciesAndOrFutureInitiatives"
+    ]
+  },
+  "data_structure_requirements": {
+    "concepts_requiring_units": [
+      "vsme:WasteDivertedToRecycleOrReuseVolume",
+      "vsme:AreaOfSiteInBiodiversitySensitiveArea",
+      "vsme:WasteDivertedToRecycleOrReuseMass",
+      "vsme:TotalNonHazardousWasteGeneratedVolume",
+      "vsme:TotalMassOfMaterialUsed",
+      "vsme:AmountOfWaterWithdrawnAtSitesLocatedInAreasOfHighWaterStress",
+      "vsme:AmountOfEmissionToSoil",
+      "vsme:TotalHazardousWasteGeneratedVolume",
+      "vsme:WeightOfMaterialUsed",
+      "vsme:TotalWasteGeneratedVolume",
+      "vsme:TotalWasteRecycledReusedAndDirectedToDisposalVolume",
+      "vsme:VolumeOfMaterialUsed",
+      "vsme:WasteDirectedToDisposalVolume",
+      "vsme:WasteDirectedToDisposalMass",
+      "vsme:TotalWasteRecycledReusedAndDirectedToDisposalMass",
+      "vsme:AmountOfEmissionToWater",
+      "vsme:TotalVolumeOfMaterialUsed",
+      "vsme:AmountOfEmissionToAir",
+      "vsme:TotalLocationBasedGreenhouseGasEmissionsIntensityValue"
+    ],
+    "boolean_concepts": [
+      "vsme:ReportContainsDisclosuresFromThePreviousReportingPeriodThatRemainUnchanged",
+      "vsme:UndertakingIsAwareOfAnyConfirmedIncidentsInvolvingWorkersInTheValueChainAffectedCommunitiesConsumersAndEndUsers",
+      "vsme:PracticePolicyAndOrFutureInitiativeIsPubliclyAvailable",
+      "vsme:SiteLocatedInABiodiversitySensitiveArea",
+      "vsme:DisclosureOfWhetherItHasUndertakenClimateChangeAdaptationActionsForAnyClimateRelatedHazardsAndTransitionEvents",
+      "vsme:UndertakingsAreExcludedFromAnyEuReferenceBenchmarksThatAreAlignedWithTheParisAgreement"
+    ],
+    "text_description_concepts": [
+      "vsme:DisclosureOfListOfMainActionsTheEntitySeeksInOrderToAchieveItsTargets",
+      "vsme:SustainabilityIssueAddressedByPracticePolicyAndOrFutureInitiative",
+      "vsme:DescriptionOfPracticesPoliciesAndOrFutureInitiatives",
+      "vsme:TypeOfContentCoveredByTheCodeOfConductOrHumanRightsPolicyForItsOwnWorkforce",
+      "vsme:ListOfDisclosuresForWhichNoChangesAreReportedComparedToThePreviousPeriodReporting",
+      "vsme:DisclosureOfHowItHasAssessedTheExposureAndSensitivityOfItsAssetsActivitiesAndValueChainToTheseHazardsAndTransitionEvents",
+      "vsme:TimeHorizonsOfAnyClimateRelatedHazardsAndTransitionEventsIdentified",
+      "vsme:DescriptionOfClimateRelatedHazardsAndClimateRelatedTransitionEvents",
+      "vsme:MostSeniorLevelAccountableForImplementationOfPracticesPoliciesAndOrFutureInitiatives"
+    ],
+    "concepts_with_typed_axes": [
+      "vsme:WasteDivertedToRecycleOrReuseVolume",
+      "vsme:AreaOfSiteInBiodiversitySensitiveArea",
+      "vsme:NumberOfEmployeesForCountryOfEmploymentContract",
+      "vsme:WasteDivertedToRecycleOrReuseMass",
+      "vsme:SiteLocatedInABiodiversitySensitiveArea",
+      "vsme:NameOfMaterialUsed",
+      "vsme:AddressOfSite",
+      "vsme:AmountOfEmissionToSoil",
+      "vsme:WeightOfMaterialUsed",
+      "vsme:WasteDirectedToDisposalMass",
+      "vsme:WasteDirectedToDisposalVolume",
+      "vsme:VolumeOfMaterialUsed",
+      "vsme:PostalCodeOfSite",
+      "vsme:AmountOfEmissionToAir",
+      "vsme:CityOfSite",
+      "vsme:NameOfTheSubsidiary",
+      "vsme:AmountOfEmissionToWater",
+      "vsme:CountryOfSite",
+      "vsme:TotalWasteRecycledReusedAndDirectedToDisposalMass",
+      "vsme:TotalWasteRecycledReusedAndDirectedToDisposalVolume",
+      "vsme:RegisteredAddressOfTheSubsidiary",
+      "vsme:GPSLocationOfSite"
+    ]
+  },
+  "implementation_priorities": {
+    "high_priority": {
+      "description": "Core business data essential for basic VSME compliance",
+      "concepts": [
+        "vsme:CountryOfSite",
+        "vsme:RegisteredAddressOfTheSubsidiary",
+        "vsme:PostalCodeOfSite",
+        "vsme:CityOfSite",
+        "vsme:AddressOfSite",
+        "vsme:GPSLocationOfSite",
+        "vsme:VolumeOfMaterialUsed",
+        "vsme:WeightOfMaterialUsed",
+        "vsme:NameOfMaterialUsed",
+        "vsme:TotalMassOfMaterialUsed",
+        "vsme:TotalVolumeOfMaterialUsed",
+        "vsme:EmployeeCountingMethodology",
+        "vsme:TypeOfNumberOfEmployees",
+        "vsme:NumberOfEmployeesForCountryOfEmploymentContract"
+      ]
+    },
+    "medium_priority": {
+      "description": "Compliance and reporting requirements",
+      "concepts": [
+        "vsme:NaceSectorClassificationCodes",
+        "vsme:ReportContainsDisclosuresFromThePreviousReportingPeriodThatRemainUnchanged",
+        "vsme:LinkToPreviousReportContainingDisclosuresThatRemainUnchanged",
+        "vsme:ListOfDisclosuresForWhichNoChangesAreReportedComparedToThePreviousPeriodReporting",
+        "vsme:ListOfOmittedDisclosuresDeemedToBeClassifiedOrSensitiveInformation",
+        "vsme:TypeOfContentCoveredByTheCodeOfConductOrHumanRightsPolicyForItsOwnWorkforce",
+        "vsme:GreenhouseGasEmissionReductionTargetBaseYear",
+        "vsme:GreenhouseGasEmissionReductionTargetYear"
+      ]
+    },
+    "lower_priority": {
+      "description": "Enhanced reporting and strategic disclosure",
+      "concepts": [
+        "vsme:DescriptionOfPracticesPoliciesAndOrFutureInitiatives",
+        "vsme:PracticePolicyAndOrFutureInitiativeIsPubliclyAvailable",
+        "vsme:SustainabilityIssueAddressedByPracticePolicyAndOrFutureInitiative",
+        "vsme:MostSeniorLevelAccountableForImplementationOfPracticesPoliciesAndOrFutureInitiatives",
+        "vsme:DescriptionOfClimateRelatedHazardsAndClimateRelatedTransitionEvents",
+        "vsme:TimeHorizonsOfAnyClimateRelatedHazardsAndTransitionEventsIdentified",
+        "vsme:DisclosureOfHowItHasAssessedTheExposureAndSensitivityOfItsAssetsActivitiesAndValueChainToTheseHazardsAndTransitionEvents",
+        "vsme:DisclosureOfListOfMainActionsTheEntitySeeksInOrderToAchieveItsTargets",
+        "vsme:DateOfAdoptionOfTransitionPlanForUndertakingNotHavingAdoptedTransitionPlanYet",
+        "vsme:DisclosureOfWhetherItHasUndertakenClimateChangeAdaptationActionsForAnyClimateRelatedHazardsAndTransitionEvents"
+      ]
+    }
+  },
+  "recommended_implementation_sequence": [
+    {
+      "phase": 1,
+      "description": "Basic site and material data",
+      "concepts": [
+        "CountryOfSite",
+        "AddressOfSite",
+        "CityOfSite",
+        "PostalCodeOfSite",
+        "NameOfMaterialUsed",
+        "WeightOfMaterialUsed",
+        "VolumeOfMaterialUsed"
+      ]
+    },
+    {
+      "phase": 2,
+      "description": "Employee and workforce data",
+      "concepts": [
+        "EmployeeCountingMethodology",
+        "TypeOfNumberOfEmployees",
+        "NumberOfEmployeesForCountryOfEmploymentContract",
+        "TotalNumberOfTemporaryWorkersProvidedByUndertakingsPrimarilyEngagedInEmploymentActivities",
+        "TotalNumberOfSelfEmployedWorkersWithoutPersonnelThatAreWorkingExclusivelyForTheUndertaking"
+      ]
+    },
+    {
+      "phase": 3,
+      "description": "Waste and environmental data",
+      "concepts": [
+        "WasteDivertedToRecycleOrReuseMass",
+        "WasteDivertedToRecycleOrReuseVolume",
+        "WasteDirectedToDisposalMass",
+        "WasteDirectedToDisposalVolume",
+        "TotalWasteRecycledReusedAndDirectedToDisposalMass",
+        "TotalWasteRecycledReusedAndDirectedToDisposalVolume",
+        "TotalHazardousWasteGeneratedVolume",
+        "TotalNonHazardousWasteGeneratedVolume"
+      ]
+    },
+    {
+      "phase": 4,
+      "description": "Governance and compliance data",
+      "concepts": [
+        "NaceSectorClassificationCodes",
+        "ReportContainsDisclosuresFromThePreviousReportingPeriodThatRemainUnchanged",
+        "LinkToPreviousReportContainingDisclosuresThatRemainUnchanged",
+        "TypeOfContentCoveredByTheCodeOfConductOrHumanRightsPolicyForItsOwnWorkforce",
+        "FemaleToMaleRatioAtManagementLevelForTheReportingPeriod",
+        "GenderDiversityRatioInGovernanceBody"
+      ]
+    }
+  ]
+}
