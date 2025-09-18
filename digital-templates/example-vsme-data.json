@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "entryPoint": "template_reporting_schemaRef",
+        "entryPoint": "https://xbrl.efrag.org/taxonomy/vsme/2025-07-30/vsme-all.xsd",
         "entity": {
             "name": "Example Sustainability Corporation Ltd",
             "identifier": "12345678901234567890",
@@ -15,15 +15,6 @@
         "currency": "EUR"
     },
     "namedRanges": {
-        "template_reporting_entity_name": "Example Sustainability Corporation Ltd",
-        "template_reporting_entity_identifier": "12345678901234567890",
-        "template_reporting_entity_identifier_scheme": "lei",
-        "template_reporting_period_startdate": "2024-01-01",
-        "template_reporting_period_enddate": "2024-12-31",
-        "template_reporting_title": "Annual Sustainability Report 2024",
-        "template_reporting_subtitle": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME), released on 17 December 2024",
-        "template_currency": "EUR",
-        
         "ScopeOneGrossGhgEmissions": {
             "value": 1250.5,
             "unit": "tCO2e"
