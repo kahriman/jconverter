@@ -1,5 +1,7 @@
+import json
 import logging
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from random import randint
 from secrets import token_hex
 from typing import Any
@@ -37,6 +39,7 @@ from mireport.excelprocessor import (
     VSME_DEFAULTS,
     ExcelProcessor,
 )
+from mireport.jsonprocessor import JsonProcessor
 from mireport.filesupport import FilelikeAndFileName, ImageFileLikeAndFileName
 from mireport.localise import EU_LOCALES, get_locale_from_str, get_locale_list
 
@@ -330,10 +333,20 @@ def upload() -> Response:
             },
             400,
         )
-    elif "." not in blob.filename or "xlsx" != blob.filename.lower().split(".")[-1]:
+    elif "." not in blob.filename:
         return make_response(
             {
-                "error": "Invalid file format (only .xlsx files supported)",
+                "error": "Invalid file format (files must have an extension)",
+                "file": blob.filename,
+            },
+            400,
+        )
+    
+    file_extension = blob.filename.lower().split(".")[-1]
+    if file_extension not in ("xlsx", "json"):
+        return make_response(
+            {
+                "error": "Invalid file format (only .xlsx and .json files supported)",
                 "file": blob.filename,
             },
             400,
@@ -341,9 +354,17 @@ def upload() -> Response:
     result = ConversionResultsBuilder()
     conversion = session.setdefault(result.conversionId, {})
     conversion["date"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-    conversion["excel"] = FilelikeAndFileName(
-        fileContent=blob.stream.read(), filename=blob.filename
-    )
+    
+    # Store file based on type
+    file_content = blob.stream.read()
+    if file_extension == "xlsx":
+        conversion["excel"] = FilelikeAndFileName(
+            fileContent=file_content, filename=blob.filename
+        )
+    elif file_extension == "json":
+        conversion["json"] = FilelikeAndFileName(
+            fileContent=file_content, filename=blob.filename
+        )
 
     manualLocale = (
         request.form.get("localeOption", type=str, default="detect").strip() == "manual"
@@ -408,36 +429,74 @@ def convert(id: str) -> Response:
 
 def getUploadFilename(id: str) -> str:
     conversion = session.get(id)
-    if not (conversion and "excel" in conversion):
+    if not conversion:
         return ""
 
-    excel = FilelikeAndFileName(*conversion["excel"])
-    return excel.filename
+    # Check for either Excel or JSON file
+    if "excel" in conversion:
+        upload = FilelikeAndFileName(*conversion["excel"])
+        return upload.filename
+    elif "json" in conversion:
+        upload = FilelikeAndFileName(*conversion["json"])
+        return upload.filename
+    
+    return ""
 
 
 def doConversion(conversion: dict, id: str) -> ConversionResults:
     resultBuilder = ConversionResultsBuilder(conversionId=id)
     try:
         with resultBuilder.processingContext(f"Conversion {id}") as pc:
-            upload = FilelikeAndFileName(*conversion["excel"])
+            # Determine file type and create appropriate processor
+            if "excel" in conversion:
+                upload = FilelikeAndFileName(*conversion["excel"])
+                file_type = "Excel"
+                
+                pc.mark(
+                    "Extracting data from Excel",
+                    additionalInfo=f"Using file: {upload.filename}",
+                )
+                if locale_str := conversion.get("locale_str"):
+                    requestedOutputLocale = get_locale_from_str(locale_str)
+                else:
+                    requestedOutputLocale = None
 
-            pc.mark(
-                "Extracting data from Excel",
-                additionalInfo=f"Using file: {upload.filename}",
-            )
-            if locale_str := conversion.get("locale_str"):
-                requestedOutputLocale = get_locale_from_str(locale_str)
+                processor = ExcelProcessor(
+                    upload.fileLike(),
+                    resultBuilder,
+                    VSME_DEFAULTS,
+                    outputLocale=requestedOutputLocale,
+                )
+            
+            elif "json" in conversion:
+                upload = FilelikeAndFileName(*conversion["json"])
+                file_type = "JSON"
+                
+                pc.mark(
+                    "Extracting data from JSON",
+                    additionalInfo=f"Using file: {upload.filename}",
+                )
+                if locale_str := conversion.get("locale_str"):
+                    requestedOutputLocale = get_locale_from_str(locale_str)
+                else:
+                    requestedOutputLocale = None
+
+                processor = JsonProcessor(
+                    upload.fileLike(),
+                    resultBuilder,
+                    VSME_DEFAULTS,
+                    outputLocale=requestedOutputLocale,
+                )
+            
             else:
-                requestedOutputLocale = None
+                resultBuilder.addMessage(
+                    "No valid input file found in conversion data",
+                    Severity.ERROR,
+                    MessageType.Conversion,
+                )
+                return resultBuilder.build()
 
-            excel = ExcelProcessor(
-                upload.fileLike(),
-                resultBuilder,
-                VSME_DEFAULTS,
-                outputLocale=requestedOutputLocale,
-            )
-
-            report = excel.populateReport()
+            report = processor.populateReport()
             if not report.hasFacts:
                 resultBuilder.addMessage(
                     "No facts found in InlineReport (likely due to earlier errors). Stopping here.",
@@ -576,6 +635,172 @@ def viewer(id: str) -> Response:
         download_name=stuff.filename,
         mimetype="text/html",
     )
+
+
+@convert_bp.route("/api/convert", methods=["POST"])
+def api_convert() -> Response:
+    """
+    API endpoint for programmatic JSON to XBRL conversion.
+    Accepts JSON data directly in the request body.
+    """
+    try:
+        # Check Content-Type
+        if not request.is_json:
+            return make_response({
+                "error": "Content-Type must be application/json"
+            }, 400)
+        
+        # Get JSON data from request
+        json_data = request.get_json()
+        if not json_data:
+            return make_response({
+                "error": "No JSON data provided"
+            }, 400)
+        
+        # Create a conversion ID for tracking
+        resultBuilder = ConversionResultsBuilder()
+        conversion_id = resultBuilder.conversionId
+        
+        # Optional parameters
+        output_locale = request.args.get('locale')
+        requestedOutputLocale = None
+        if output_locale:
+            try:
+                requestedOutputLocale = get_locale_from_str(output_locale)
+            except Exception:
+                return make_response({
+                    "error": f"Invalid locale: {output_locale}"
+                }, 400)
+        
+        # Process the JSON data
+        with resultBuilder.processingContext(f"API Conversion {conversion_id}") as pc:
+            pc.mark("Processing JSON data via API")
+            
+            # Convert dict to JSON string for JsonProcessor
+            import io
+            json_string = json.dumps(json_data, ensure_ascii=False)
+            json_file_like = io.StringIO(json_string)
+            
+            processor = JsonProcessor(
+                json_file_like,
+                resultBuilder,
+                VSME_DEFAULTS,
+                outputLocale=requestedOutputLocale,
+            )
+            
+            report = processor.populateReport()
+            
+            if not report.hasFacts:
+                return make_response({
+                    "error": "No facts found in JSON data",
+                    "conversion_id": conversion_id,
+                    "messages": [msg.toDict() for msg in resultBuilder.build().messages]
+                }, 400)
+            
+            pc.mark("Generating Inline Report")
+            report_package = report.getInlineReportPackage()
+            
+            if not resultBuilder.conversionSuccessful:
+                return make_response({
+                    "error": "Conversion failed",
+                    "conversion_id": conversion_id,
+                    "messages": [msg.toDict() for msg in resultBuilder.build().messages]
+                }, 400)
+            
+            # Generate response with different output formats
+            response_data = {
+                "success": True,
+                "conversion_id": conversion_id,
+                "fact_count": report.factCount,
+                "messages": [msg.toDict() for msg in resultBuilder.build().messages]
+            }
+            
+            # Add requested output formats
+            output_format = request.args.get('format', 'zip')  # Default to zip
+            
+            if output_format in ('zip', 'all'):
+                # Return ZIP package as base64
+                import base64
+                zip_content = FilelikeAndFileName(*report_package)
+                zip_bytes = zip_content.fileLike().read()
+                response_data['zip_package'] = base64.b64encode(zip_bytes).decode('ascii')
+                response_data['zip_filename'] = zip_content.filename
+            
+            if output_format in ('json', 'all'):
+                # Generate XBRL-JSON format
+                try:
+                    arelle = getArelle()
+                    json_result = arelle.generateXBRLJson(report_package)
+                    json_content = FilelikeAndFileName(*json_result.xBRL_JSON)
+                    response_data['xbrl_json'] = json_content.fileLike().read().decode('utf-8')
+                except Exception as e:
+                    response_data['xbrl_json_error'] = str(e)
+            
+            if output_format in ('viewer', 'all'):
+                # Generate iXBRL viewer
+                try:
+                    arelle = getArelle()
+                    viewer_result = arelle.generateInlineViewer(report_package)
+                    viewer_content = FilelikeAndFileName(*viewer_result.viewer)
+                    response_data['viewer_html'] = viewer_content.fileLike().read().decode('utf-8')
+                except Exception as e:
+                    response_data['viewer_error'] = str(e)
+            
+            return make_response(jsonify(response_data), 200)
+    
+    except Exception as e:
+        L.exception("API conversion failed", exc_info=e)
+        return make_response({
+            "error": f"Internal server error: {str(e)}"
+        }, 500)
+
+
+@convert_bp.route("/api/schema", methods=["GET"])
+def api_schema() -> Response:
+    """
+    API endpoint to get the JSON schema for VSME data.
+    """
+    try:
+        schema_file = Path(__file__).parent / "data" / "json_schema.json"
+        if not schema_file.exists():
+            return make_response({
+                "error": "Schema file not found"
+            }, 404)
+        
+        with open(schema_file, 'r', encoding='utf-8') as f:
+            schema = json.load(f)
+        
+        return make_response(jsonify(schema), 200)
+    
+    except Exception as e:
+        L.exception("Failed to load schema", exc_info=e)
+        return make_response({
+            "error": f"Failed to load schema: {str(e)}"
+        }, 500)
+
+
+@convert_bp.route("/api/example", methods=["GET"])
+def api_example() -> Response:
+    """
+    API endpoint to get an example JSON file for VSME data.
+    """
+    try:
+        example_file = Path(__file__).parent.parent.parent / "digital-templates" / "example-vsme-data.json"
+        if not example_file.exists():
+            return make_response({
+                "error": "Example file not found"
+            }, 404)
+        
+        with open(example_file, 'r', encoding='utf-8') as f:
+            example = json.load(f)
+        
+        return make_response(jsonify(example), 200)
+    
+    except Exception as e:
+        L.exception("Failed to load example", exc_info=e)
+        return make_response({
+            "error": f"Failed to load example: {str(e)}"
+        }, 500)
 
 
 if __name__ == "__main__":
