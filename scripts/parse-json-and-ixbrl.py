@@ -122,7 +122,7 @@ def doConversion(args: argparse.Namespace) -> tuple[ConversionResults, JsonProce
 
         # Save main HTML file
         with open(output_path, "wb") as f:
-            f.write(reportFile.read())
+            f.write(reportFile.fileContent)
         pc.addDevInfoMessage(f"Inline Report saved to {output_path}")
 
         # Save ZIP package
@@ -146,14 +146,38 @@ def outputMessages(
     args: argparse.Namespace, result: ConversionResults, json_processor: JsonProcessor
 ) -> None:
     """Output conversion messages and summary."""
+    hasMessages = result.hasMessages(userOnly=True)
+    messages = result.userMessages
     if args.devinfo:
-        result.devInfoMessagesVisible = True
-    
-    print(result.getFormattedMessages())
+        hasMessages = result.hasMessages()
+        messages = result.developerMessages
+
+    if hasMessages:
+        print()
+        print(f"Information and issues encountered ({len(messages)} messages):")
+        for message in messages:
+            print(f"\t{message}")
+
+    if args.devinfo and json_processor.unusedNames:
+        max_output = 40
+        unused = json_processor.unusedNames
+        if (num := len(unused)) > max_output:
+            size = int(max_output / 2)
+            unused = (
+                unused[:size]
+                + [f"... supressed {num - max_output} rows..."]
+                + unused[-size:]
+            )
+
+        print(
+            f"Unused names ({num}) from JSON data:",
+            *unused,
+            sep="\n\t",
+        )
     
     if result.conversionSuccessful:
         print(f"\n✅ Conversion completed successfully!")
-        print(f"📊 Generated {len(json_processor._namedRanges)} facts from JSON data")
+        print(f"📊 Generated facts from JSON data")
     else:
         print(f"\n❌ Conversion failed with errors.")
         exit(1)

@@ -212,14 +212,32 @@ class JsonProcessor:
             if 'name' in entity_info:
                 self._report.setEntityName(entity_info['name'])
             if 'identifier' in entity_info:
-                self._report.setEntityIdentifier(entity_info['identifier'])
+                self._report.setDefaultAspect("entity-identifier", entity_info['identifier'])
+            if 'identifierScheme' in entity_info:
+                # Map common scheme names to URIs
+                scheme_mappings = {
+                    "lei": "http://standards.iso.org/iso/17442",
+                    "duns": "https://www.dnb.co.uk/duns-number",
+                    "euid": "https://euid.eu/",
+                    "permid": "https://permid.org/"
+                }
+                scheme = entity_info['identifierScheme'].lower()
+                scheme_uri = scheme_mappings.get(scheme, scheme)
+                self._report.setDefaultAspect("entity-scheme", scheme_uri)
+            
+            # Extract currency
+            if 'currency' in metadata:
+                self._report.setDefaultAspect("monetary-units", metadata['currency'])
             
             # Extract reporting period
             period_info = metadata.get('reportingPeriod', {})
             if 'start' in period_info and 'end' in period_info:
                 start_date = parse_datetime(period_info['start']).date()
                 end_date = parse_datetime(period_info['end']).date()
-                self._report.setReportingPeriod(start_date, end_date)
+                # Add the duration period and set it as default
+                period_name = "cur"  # Use same default name as Excel processor
+                if self._report.addDurationPeriod(period_name, start_date, end_date):
+                    self._report.setDefaultPeriodName(period_name)
             
             # Extract report title and subtitle
             if 'title' in metadata:
@@ -395,20 +413,85 @@ class JsonProcessor:
                     if isinstance(value, (int, float)):
                         fb.setValue(value)
                         
-                        # Set unit if provided or use default mapping
+                        # Handle unit setting
+                        unit_set = False
+                        
+                        # 1. Try explicit unit from JSON
                         if unit:
-                            # TODO: Map unit string to proper QName
-                            pass
-                        elif concept.isMonetary:
-                            # Use default currency from metadata
+                            try:
+                                # Map common unit strings to QNames
+                                unit_mappings = {
+                                    'tCO2e': 'utr:tCO2e',
+                                    'MWh': 'utr:MWh', 
+                                    't': 'utr:t',
+                                    'm3': 'utr:m3',
+                                    'ha': 'utr:ha',
+                                    '%': 'xbrli:pure',
+                                    'EUR': 'iso4217:EUR',
+                                    'USD': 'iso4217:USD'
+                                }
+                                unit_qname_str = unit_mappings.get(unit, unit)
+                                unit_qname = self.taxonomy.QNameMaker.fromString(unit_qname_str)
+                                
+                                # Validate unit against concept's data type
+                                if self.taxonomy.UTR.valid(concept.dataType, unit_qname):
+                                    fb.setSimpleUnit(unit_qname)
+                                    unit_set = True
+                                else:
+                                    self._results.addMessage(
+                                        f"Unit '{unit}' is not valid for concept {concept.qname} with dataType {concept.dataType}",
+                                        Severity.WARNING,
+                                        MessageType.ExcelParsing,
+                                    )
+                            except Exception as e:
+                                self._results.addMessage(
+                                    f"Failed to set unit '{unit}' for concept {concept.qname}: {e}",
+                                    Severity.WARNING,
+                                    MessageType.ExcelParsing,
+                                )
+                        
+                        # 2. Try monetary units
+                        if not unit_set and concept.isMonetary:
                             currency = self._jsonData.get('metadata', {}).get('currency', 'EUR')
-                            # TODO: Set monetary unit
-                            pass
-                        else:
-                            # Look up unit in configuration
+                            currency_qname = self.taxonomy.QNameMaker.fromString(f'iso4217:{currency}')
+                            fb.setSimpleUnit(currency_qname)
+                            unit_set = True
+                        
+                        # 3. Try concept-to-unit mapping from configuration
+                        if not unit_set:
                             config_unit = self._configConceptToUnitMap.get(concept)
                             if config_unit:
-                                fb.setUnit(config_unit)
+                                if self.taxonomy.UTR.valid(concept.dataType, config_unit):
+                                    fb.setSimpleUnit(config_unit)
+                                    unit_set = True
+                                else:
+                                    self._results.addMessage(
+                                        f"Configured unit {config_unit} is not valid for concept {concept.qname}",
+                                        Severity.WARNING,
+                                        MessageType.ExcelParsing,
+                                    )
+                        
+                        # 4. Try required units from concept
+                        if not unit_set:
+                            required_units = concept.getRequiredUnitQNames()
+                            if required_units and len(required_units) == 1:
+                                fb.setSimpleUnit(next(iter(required_units)))
+                                unit_set = True
+                        
+                        # 5. For pure numeric concepts (counts, ratios), use pure unit
+                        if not unit_set and concept.dataType == self.taxonomy.QNameMaker.fromString("xbrli:decimalItemType"):
+                            pure_unit = self.taxonomy.QNameMaker.fromString("xbrli:pure")
+                            fb.setSimpleUnit(pure_unit)
+                            unit_set = True
+                        
+                        # If still no unit, log error and skip this fact
+                        if not unit_set:
+                            self._results.addMessage(
+                                f"No valid unit found for numeric concept {concept.qname} with dataType {concept.dataType}",
+                                Severity.ERROR,
+                                MessageType.ExcelParsing,
+                            )
+                            continue
                     else:
                         raise ValueError(f"Numeric concept requires numeric value, got {type(value)}")
                 

@@ -197,6 +197,15 @@ class TestJsonProcessor(unittest.TestCase):
                 def fromString(s):
                     return s
             
+            class UTR:
+                @staticmethod
+                def getQNameForUnitId(unit_id):
+                    return None
+                    
+                @staticmethod
+                def valid(data_type, unit_qname):
+                    return True
+            
             def getConcept(self, name):
                 return None
         
