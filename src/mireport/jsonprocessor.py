@@ -2,7 +2,7 @@ import json
 import logging
 from datetime import date, datetime
 from pathlib import Path
-from typing import Any, BinaryIO, Optional
+from typing import Any, BinaryIO, NamedTuple, Optional
 
 from babel import Locale
 from dateutil.parser import parse as parse_datetime
@@ -31,6 +31,12 @@ L = logging.getLogger(__name__)
 VSME_DEFAULTS: dict = getObject(getResource(excel_templates, "vsme.json"))
 
 
+class ComplexUnit(NamedTuple):
+    """Complex unit structure for XBRL units."""
+    numerator: list[QName]
+    denominator: list[QName]
+
+
 class JsonProcessor:
     """
     JSON processor for converting structured JSON data to XBRL facts.
@@ -51,7 +57,7 @@ class JsonProcessor:
 
         # Populated from config file (similar to ExcelProcessor)
         self._configDataTypeToUnitMap: dict[QName, QName] = {}
-        self._configUnitIdsToMeasures: dict[str, Any] = {}
+        self._configUnitIdsToMeasures: dict[str, ComplexUnit] = {}
         self._configCellValuesToTaxonomyLabels: dict[str, str] = {}
         self._configConceptToUnitMap: dict[Concept, QName] = {}
         self._configCellUnitReplacements: dict[str, str] = {}
@@ -59,6 +65,7 @@ class JsonProcessor:
         # Populated from JSON data
         self._jsonData: dict[str, Any] = {}
         self._namedRanges: dict[str, Any] = {}
+        self._definedNameToXBRLMap: dict[str, Any] = {}
 
         # For passing through to inline report
         self._outputLocale: Optional[Locale] = outputLocale
@@ -70,6 +77,12 @@ class JsonProcessor:
     @property
     def taxonomy(self) -> Taxonomy:
         return self._report.taxonomy
+
+    @property
+    def unusedNames(self) -> list[str]:
+        """Return list of unused named ranges."""
+        return [name for name in self._namedRanges.keys() 
+                if name not in self._definedNameToXBRLMap and not name.startswith(("enum_", "template_"))]
 
     def populateReport(self) -> InlineReport:
         """
@@ -234,7 +247,19 @@ class JsonProcessor:
 
         if "unitIdsToMeasures" in defaults:
             for unitId, unitDict in defaults["unitIdsToMeasures"].items():
-                self._configUnitIdsToMeasures[unitId] = unitDict
+                numerators: list[QName] = [
+                    qname
+                    for m in unitDict.get("numerator", [])
+                    if (qname := self.taxonomy.UTR.getQNameForUnitId(m)) is not None
+                ]
+                denominators: list[QName] = [
+                    qname
+                    for m in unitDict.get("denominator", [])
+                    if (qname := self.taxonomy.UTR.getQNameForUnitId(m)) is not None
+                ]
+                self._configUnitIdsToMeasures[unitId] = ComplexUnit(
+                    numerator=numerators, denominator=denominators
+                )
 
         if "conceptsToUnits" in defaults:
             for conceptQname, unitQname in defaults["conceptsToUnits"].items():
@@ -265,16 +290,21 @@ class JsonProcessor:
 
     def _processNamedRanges(self) -> None:
         """Process named ranges and convert to XBRL concepts."""
+        self._definedNameToXBRLMap = {}
+        
         for name, value in self._namedRanges.items():
             if name.startswith(("enum_", "template_")):
                 continue
                 
             concept = self.taxonomy.getConceptForName(name)
             if concept:
-                # Store the value for later fact creation
-                # This is a simplified version - real implementation would need
-                # to handle complex data types, dimensions, etc.
-                pass
+                # Create a holder for this named range similar to ExcelProcessor
+                holder = type('JSONCellAndXBRLMetadataHolder', (), {
+                    'concept': concept,
+                    'name': name,
+                    'value': value
+                })()
+                self._definedNameToXBRLMap[name] = holder
             else:
                 self._results.addMessage(
                     f"No concept found for named range '{name}'",
@@ -283,29 +313,211 @@ class JsonProcessor:
                 )
 
     def _processNamedRangeTables(self) -> None:
-        """Process table structures from JSON (placeholder)."""
-        # TODO: Implement table processing for JSON
-        pass
+        """Process table structures from JSON."""
+        tables = self._jsonData.get('tables', {})
+        for table_name, table_data in tables.items():
+            self._results.addMessage(
+                f"Processing table '{table_name}' with {len(table_data)} rows",
+                Severity.INFO,
+                MessageType.ExcelParsing,
+            )
+            # TODO: Implement full table processing
+            # For now, just log that tables are present
 
     def _createNamedPeriods(self) -> None:
-        """Create named periods from configuration."""
-        # TODO: Implement period creation
-        pass
+        """Create named periods from metadata or configuration."""
+        # Extract period information from metadata
+        metadata = self._jsonData.get('metadata', {})
+        period_info = metadata.get('reportingPeriod', {})
+        
+        if 'start' in period_info and 'end' in period_info:
+            try:
+                start_date = parse_datetime(period_info['start']).date()
+                end_date = parse_datetime(period_info['end']).date()
+                
+                # Create named period (following ExcelProcessor pattern)
+                self._report.addNamedPeriod("cur", start_date, end_date)
+                
+                self._results.addMessage(
+                    f"Created reporting period from {start_date} to {end_date}",
+                    Severity.INFO,
+                    MessageType.ExcelParsing,
+                )
+            except Exception as e:
+                self._results.addMessage(
+                    f"Failed to parse reporting period: {e}",
+                    Severity.ERROR,
+                    MessageType.ExcelParsing,
+                )
 
     def createSimpleFacts(self) -> None:
         """Create simple XBRL facts from named ranges."""
-        # TODO: Implement fact creation from named ranges
-        pass
+        for name, holder in self._definedNameToXBRLMap.items():
+            concept = holder.concept
+            
+            if not concept.isReportable:
+                continue
+            
+            # Get the value from the JSON data
+            json_value = holder.value
+            
+            # Handle null or empty values
+            if json_value is None or json_value == "" or json_value is False:
+                continue
+            
+            # Extract value and unit for complex objects
+            if isinstance(json_value, dict):
+                value = json_value.get('value')
+                unit = json_value.get('unit')
+                dimensions = json_value.get('dimensions', {})
+            else:
+                value = json_value
+                unit = None
+                dimensions = {}
+            
+            if value is None:
+                continue
+            
+            # Create fact builder
+            fb = self._report.getFactBuilder()
+            fb.setConcept(concept)
+            
+            try:
+                # Handle different data types
+                if concept.isDate:
+                    if isinstance(value, str):
+                        parsed_date = parse_datetime(value).date()
+                        fb.setValue(parsed_date)
+                    else:
+                        raise ValueError(f"Date concept requires string value, got {type(value)}")
+                
+                elif concept.isNumeric:
+                    if isinstance(value, (int, float)):
+                        fb.setValue(value)
+                        
+                        # Set unit if provided or use default mapping
+                        if unit:
+                            # TODO: Map unit string to proper QName
+                            pass
+                        elif concept.isMonetary:
+                            # Use default currency from metadata
+                            currency = self._jsonData.get('metadata', {}).get('currency', 'EUR')
+                            # TODO: Set monetary unit
+                            pass
+                        else:
+                            # Look up unit in configuration
+                            config_unit = self._configConceptToUnitMap.get(concept)
+                            if config_unit:
+                                fb.setUnit(config_unit)
+                    else:
+                        raise ValueError(f"Numeric concept requires numeric value, got {type(value)}")
+                
+                elif concept.isEnumerationSingle:
+                    # Handle enumeration values
+                    str_value = str(value)
+                    enum_concept = self.taxonomy.getConceptForLabel(str_value)
+                    
+                    # Try fallback mapping
+                    if enum_concept is None and str_value in self._configCellValuesToTaxonomyLabels:
+                        fallback_label = self._configCellValuesToTaxonomyLabels[str_value]
+                        enum_concept = self.taxonomy.getConceptForLabel(fallback_label)
+                    
+                    if enum_concept:
+                        fb.setHiddenValue(enum_concept.expandedName)
+                    else:
+                        self._results.addMessage(
+                            f"Could not find enumeration member for value '{str_value}' in concept {concept.qname}",
+                            Severity.WARNING,
+                            MessageType.ExcelParsing,
+                        )
+                        continue
+                
+                else:
+                    # Text or other types
+                    fb.setValue(str(value))
+                
+                # Handle dimensions if present
+                for dim_name, dim_value in dimensions.items():
+                    dim_concept = self.taxonomy.getConceptForName(dim_name)
+                    dim_member = self.taxonomy.getConceptForLabel(str(dim_value))
+                    if dim_concept and dim_member:
+                        fb.addDimension(dim_concept, dim_member)
+                
+                # Add the fact to the report
+                self._report.addFact(fb.buildFact())
+                
+                self._results.addMessage(
+                    f"Created fact for {concept.qname} with value {value}",
+                    Severity.INFO,
+                    MessageType.ExcelParsing,
+                )
+                
+            except Exception as e:
+                self._results.addMessage(
+                    f"Failed to create fact for {concept.qname}: {e}",
+                    Severity.ERROR,
+                    MessageType.ExcelParsing,
+                )
 
     def createTableFacts(self) -> None:
         """Create table-based XBRL facts."""
-        # TODO: Implement table fact creation
-        pass
+        tables = self._jsonData.get('tables', {})
+        for table_name, table_rows in tables.items():
+            self._results.addMessage(
+                f"Processing table '{table_name}' with {len(table_rows)} rows",
+                Severity.INFO,
+                MessageType.ExcelParsing,
+            )
+            
+            # TODO: Implement full table fact creation
+            # This would involve creating facts with dimensional data
+            # based on the table structure
+            
+            for i, row in enumerate(table_rows):
+                for column_name, cell_value in row.items():
+                    # Try to map column name to concept
+                    concept = self.taxonomy.getConceptForName(column_name)
+                    if concept and concept.isReportable and cell_value is not None:
+                        fb = self._report.getFactBuilder()
+                        fb.setConcept(concept)
+                        fb.setValue(cell_value)
+                        
+                        # TODO: Add table-specific dimensions
+                        # This would require understanding the table structure
+                        # and mapping row identifiers to dimensional members
+                        
+                        try:
+                            self._report.addFact(fb.buildFact())
+                        except Exception as e:
+                            self._results.addMessage(
+                                f"Failed to create table fact for {concept.qname}: {e}",
+                                Severity.WARNING,
+                                MessageType.ExcelParsing,
+                            )
 
     def checkForUnhandledItems(self) -> None:
         """Check for unhandled items and warn."""
-        # TODO: Implement validation of unused named ranges
-        pass
+        # Check for named ranges that weren't processed
+        unprocessed_ranges = []
+        for name in self._namedRanges.keys():
+            if not name.startswith(("enum_", "template_")) and name not in self._definedNameToXBRLMap:
+                unprocessed_ranges.append(name)
+        
+        if unprocessed_ranges:
+            self._results.addMessage(
+                f"Unprocessed named ranges: {', '.join(unprocessed_ranges)}",
+                Severity.WARNING,
+                MessageType.ExcelParsing,
+            )
+        
+        # Check for tables that weren't fully processed
+        tables = self._jsonData.get('tables', {})
+        if tables:
+            self._results.addMessage(
+                f"Table processing is not fully implemented. {len(tables)} tables found but may not be fully processed.",
+                Severity.WARNING,
+                MessageType.ExcelParsing,
+            )
 
     def abortEarlyIfErrors(self) -> None:
         """Abort processing if there are critical errors."""
