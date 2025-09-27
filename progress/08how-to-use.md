@@ -9,7 +9,7 @@ GET http://localhost:5002/api/example - Beispiel-JSON-Datei abrufen
 
 ## Command-Line Tools nutzen:
 
-source .venv/bin/activate && python3 ./scripts/parse-json-and-ixbrl.py working-input-02.json claude-output-02.html
+source .venv/bin/activate && python3 ./scripts/parse-json-and-ixbrl.py ./imports/reportname-01.json ./exports/reportname-01.html
 
 
 cd /Users/muratkahriman/Documents/Cloud/jconverter

@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "entryPoint": "https://xbrl.efrag.org/taxonomy/vsme/2024-12-17/vsme-all.xsd",
+    "entity": {
+      "name": "Sustainable Manufacturing Solutions GmbH",
+      "identifier": "T0TEFWESI10VZB5O5500",
+      "identifierScheme": "http://standards.iso.org/iso/17442"
+    },
+    "reportingPeriod": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    },
+    "title": "Annual Sustainability Report 2023",
+    "subtitle": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME)",
+    "currency": "EUR"
+  },
+  "namedRanges": {
+    "template_reporting_entity_name": "Sustainable Manufacturing Solutions GmbH",
+    "template_reporting_entity_identifier": "T0TEFWESI10VZB5O5500",
+    "template_reporting_entity_identifier_scheme": "http://standards.iso.org/iso/17442",
+    "template_reporting_title": "Annual Sustainability Report 2023 - Complete Coverage with Verified VSME Concepts",
+    "template_reporting_subtitle": "Prepared in accordance with the EFRAG Voluntary Sustainability Reporting Standard for Non-Listed SMEs (VSME)",
+    "template_currency": "EUR",
+    "template_reporting_period_startdate": "2023-01-01",
+    "template_reporting_period_enddate": "2023-12-31",
+    "template_reporting_schemaRef": "https://xbrl.efrag.org/taxonomy/vsme/2024-12-17/vsme-all.xsd",
+    "BasisForPreparation": "Option B (Basic Module and Comprehensive Module)",
+    "BasisForReporting": "Sustainability report prepared on a consolidated basis",
+    "Assets": {
+      "value": 15000000,
+      "unit": "iso4217:EUR"
+    },
+    "Turnover": {
+      "value": 32000000,
+      "unit": "iso4217:EUR"
+    },
+    "TotalGrossLocationBasedScope1AndScope2GHGEmissions": {
+      "value": 0,
+      "unit": "vsme:tCO2e"
+    },
+    "TotalGrossLocationBasedGHGEmissions": {
+      "value": 0,
+      "unit": "vsme:tCO2e"
+    },
+    "TotalGrossMarketBasedScope1AndScope2GHGEmissions": {
+      "value": 0,
+      "unit": "vsme:tCO2e"
+    },
+    "TotalGrossMarketBasedGHGEmissions": {
+      "value": 0,
+      "unit": "vsme:tCO2e"
+    },
+    "Scope1AndScope2GreenhouseGasEmissionsIntensityValueLocationBased": {
+      "value": 0,
+      "unit": "vsme:tCO2ePerEUR"
+    },
+    "Scope1AndScope2GreenhouseGasEmissionsIntensityValueMarketBased": {
+      "value": 0,
+      "unit": "vsme:tCO2ePerEUR"
+    },
+    "TotalMarketBasedGreenhouseGasEmissionsIntensityValue": {
+      "value": 0,
+      "unit": "vsme:tCO2ePerEUR"
+    },
+    "UndertakingHasSetATargetWhichIsRelatedToAPolicy": true,
+    "TotalRevenuesDerivedFromFossilFuelCoalOilAndGasSector": {
+      "value": 0,
+      "unit": "iso4217:EUR"
+    },
+    "EnergyConsumptionFromSelfGeneratedElectricity": {
+      "value": 43,
+      "unit": "vsme:MWh"
+    },
+    "WaterDischargeFromUndertakingProductionProcesses": {
+      "value": 100,
+      "unit": "vsme:m3"
+    },
+    "TotalWasteGeneratedMass": {
+      "value": 0,
+      "unit": "vsme:kg"
+    },
+    "TotalWasteGeneratedVolume": {
+      "value": 0,
+      "unit": "vsme:m3"
+    },
+    "NumberOfNonReportedGenderEmployees": 0,
+    "EmployeeCountingMethodology": "vsme:AverageDuringTheReportingPeriodMember",
+    "TypeOfNumberOfEmployees": "vsme:FullTimeEquivalentFTEMember",
+    "NumberOfEmployeesForCountryOfEmploymentContract": 623,
+    "AverageNumberOfAnnualTrainingHoursPerNonReportedGenderEmployee": 120,
+    "UndertakingHasConfirmedHumanRightsIncidentsInItsOwnWorkforce": false,
+    "CountryOfPrimaryOperationsAndLocationOfSignificantAssets": "DE",
+    "CountryOfSite": "DE",
+    "AddressOfSite": "Industriestraße 12",
+    "CityOfSite": "Berlin",
+    "PostalCodeOfSite": "10115",
+    "GPSLocationOfSite": "52.5200,13.4050",
+    "SiteLocatedInABiodiversitySensitiveArea": true,
+    "ReportContainsDisclosuresFromThePreviousReportingPeriodThatRemainUnchanged": true,
+    "LinkToPreviousReportContainingDisclosuresThatRemainUnchanged": "https://example-corp.com/reports/2023-sustainability-report.html",
+    "ListOfDisclosuresForWhichNoChangesAreReportedComparedToThePreviousPeriodReporting": "Energy and greenhouse gas emissions data remains consistent with previous reporting methodology",
+    "NaceSectorClassificationCodes": "25.11",
+    "GreenhouseGasEmissionReductionTargetBaseYear": "2021",
+    "GreenhouseGasEmissionReductionTargetYear": "2035",
+    "AmountOfEmissionToAir": {
+      "value": 0.94,
+      "unit": "vsme:kg",
+      "dimensions": {
+        "TypeOfPollutantAxis": "vsme:CarbonDioxideCO2Member"
+      }
+    },
+    "AmountOfEmissionToSoil": {
+      "value": 0.94,
+      "unit": "vsme:kg",
+      "dimensions": {
+        "TypeOfPollutantAxis": "vsme:CarbonDioxideCO2Member"
+      }
+    },
+    "AmountOfEmissionToWater": {
+      "value": 0.94,
+      "unit": "vsme:kg",
+      "dimensions": {
+        "TypeOfPollutantAxis": "vsme:CarbonDioxideCO2Member"
+      }
+    },
+    "DescriptionOfSustainabilityRelatedCertificationsOrLabels": "ISO 14001:2015 Environmental Management, ISO 45001:2018 Occupational Health and Safety, B Corp Certification pending",
+    "PracticePolicyAndOrFutureInitiativeIsPubliclyAvailable": true,
+    "SustainabilityIssueAddressedByPracticePolicyAndOrFutureInitiative": "Climate change",
+    "DescriptionOfPracticesPoliciesAndOrFutureInitiatives": "Wir haben eine Risikobewertung für klimawandelbedingte physische Risiken durchgeführt und Anpassungsmaßnahmen für unsere Standorte entwickelt. Dies umfasst verbesserte Hochwasserschutzmaßnahmen, hitzeresistente Infrastrukturen und diversifizierte Lieferketten zur Reduzierung von Klimarisiken. Regelmäßige Überprüfungen und Updates unserer Anpassungsstrategien werden durchgeführt.",
+    "MostSeniorLevelAccountableForImplementationOfPracticesPoliciesAndOrFutureInitiatives": "1",
+    "DisclosureOfListOfMainActionsTheEntitySeeksInOrderToAchieveItsTargets": "1) Transition to 100% renewable energy by 2027, 2) Implement closed-loop manufacturing processes, 3) Establish science-based emission reduction targets, 4) Partner with sustainable suppliers",
+    "DateOfAdoptionOfTransitionPlanForUndertakingNotHavingAdoptedTransitionPlanYet": "2028-01-01"
+  },
+  "tables": {
+    "EmployeeBreakdownTable": [
+      {
+        "Category": "Management",
+        "TotalEmployees": 25,
+        "FemaleEmployees": 12,
+        "MaleEmployees": 13
+      },
+      {
+        "Category": "Technical Staff",
+        "TotalEmployees": 76,
+        "FemaleEmployees": 38,
+        "MaleEmployees": 38
+      },
+      {
+        "Category": "Administrative Staff",
+        "TotalEmployees": 50,
+        "FemaleEmployees": 25,
+        "MaleEmployees": 25
+      }
+    ],
+    "WasteByTypeTable": [
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "15750.5000",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      },
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "28450.7500",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      },
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "8950.2500",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      },
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "32150.0000",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      },
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "2850.7500",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      },
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "4750.5000",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      },
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "18950.2500",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      },
+      {
+        "WasteType": "waste_code.description",
+        "Mass": "12450.0000",
+        "Unit": "kg",
+        "Recycled": "recycled"
+      }
+    ],
+    "EnergyConsumptionBreakdown": [
+      {
+        "EnergyType": "type",
+        "Consumption": "value",
+        "Unit": "MWh"
+      }
+    ],
+    "SiteLocationTable": [
+      {
+        "SiteId": 1,
+        "Country": "country:DE",
+        "City": "Berlin",
+        "Address": "Industriestraße 12",
+        "PostalCode": "10115",
+        "BiodiversitySensitive": 1,
+        "Area": "5000.00"
+      },
+      {
+        "SiteId": 2,
+        "Country": "country:DE",
+        "City": "Berlin",
+        "Address": "Logistikpark 5",
+        "PostalCode": "12529",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 3,
+        "Country": "country:DE",
+        "City": "Berlin",
+        "Address": "Wissenschaftsallee 8",
+        "PostalCode": "12489",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 4,
+        "Country": "country:DE",
+        "City": "Berlin",
+        "Address": "Friedrichstraße 95",
+        "PostalCode": "10117",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 5,
+        "Country": "country:DE",
+        "City": "Berlin",
+        "Address": "Unter den Linden 10",
+        "PostalCode": "10117",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 6,
+        "Country": "country:FR",
+        "City": "Paris",
+        "Address": "Champs-Élysées 123",
+        "PostalCode": "75008",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 7,
+        "Country": "country:FR",
+        "City": "Lyon",
+        "Address": "Rue de la République 45",
+        "PostalCode": "69002",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 8,
+        "Country": "country:FR",
+        "City": "Roissy-en-France",
+        "Address": "Zone Industrielle Nord 15",
+        "PostalCode": "95700",
+        "BiodiversitySensitive": 1,
+        "Area": "2500.00"
+      },
+      {
+        "SiteId": 9,
+        "Country": "country:FR",
+        "City": "Marseille",
+        "Address": "Canebière 78",
+        "PostalCode": "13001",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 10,
+        "Country": "country:NL",
+        "City": "Amsterdam",
+        "Address": "Herengracht 450",
+        "PostalCode": "1017 CA",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      },
+      {
+        "SiteId": 11,
+        "Country": "country:NL",
+        "City": "Rotterdam",
+        "Address": "Coolsingel 101",
+        "PostalCode": "3012 AG",
+        "BiodiversitySensitive": 0,
+        "Area": null
+      }
+    ],
+    "MaterialUsageTable": [
+      {
+        "MaterialName": "Steel (recycled)",
+        "Weight": "15000.5000",
+        "Volume": "1.9200",
+        "WeightUnit": "kg",
+        "VolumeUnit": "m3",
+        "Recyclable": "recyclable"
+      },
+      {
+        "MaterialName": "Aluminum",
+        "Weight": "3250.2500",
+        "Volume": "1.2000",
+        "WeightUnit": "kg",
+        "VolumeUnit": "m3",
+        "Recyclable": "recyclable"
+      },
+      {
+        "MaterialName": "Plastic polymers (virgin)",
+        "Weight": "890.7500",
+        "Volume": "0.9500",
+        "WeightUnit": "kg",
+        "VolumeUnit": "m3",
+        "Recyclable": "recyclable"
+      },
+      {
+        "MaterialName": "Glass",
+        "Weight": "1250.0000",
+        "Volume": "0.5000",
+        "WeightUnit": "kg",
+        "VolumeUnit": "m3",
+        "Recyclable": "recyclable"
+      },
+      {
+        "MaterialName": "Paper and cardboard",
+        "Weight": "2450.8000",
+        "Volume": "3.2500",
+        "WeightUnit": "kg",
+        "VolumeUnit": "m3",
+        "Recyclable": "recyclable"
+      },
+      {
+        "MaterialName": "Rubber compounds",
+        "Weight": "450.3000",
+        "Volume": "0.4800",
+        "WeightUnit": "kg",
+        "VolumeUnit": "m3",
+        "Recyclable": "recyclable"
+      }
+    ],
+    "GHGEmissionsComparison": [
+      {
+        "EmissionType": "type",
+        "LocationBased": "location_based",
+        "MarketBased": "market_based",
+        "Unit": "tCO2e"
+      }
+    ],
+    "FossilFuelRevenueTable": []
+  }
+}
