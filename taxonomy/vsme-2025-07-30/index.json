@@ -1,0 +1,40 @@
+{
+    "description": "Index of chunked VSME taxonomy files. This file acts as a manifest for the seeder to locate and process each part of the taxonomy.",
+    "chunks": [
+        {
+            "name": "metadata",
+            "file": "chunks\/metadata.json",
+            "description": "Contains the entry point, namespaces, and other top-level metadata."
+        },
+        {
+            "name": "concepts_country",
+            "file": "chunks\/concepts_country.json",
+            "description": "All concepts prefixed with 'country:'."
+        },
+        {
+            "name": "concepts_nace",
+            "file": "chunks\/concepts_nace.json",
+            "description": "All concepts prefixed with 'nace:'."
+        },
+        {
+            "name": "concepts_vsme",
+            "file": "chunks\/concepts_vsme.json",
+            "description": "All concepts prefixed with 'vsme:'."
+        },
+        {
+            "name": "concepts_waste",
+            "file": "chunks\/concepts_waste.json",
+            "description": "All concepts prefixed with 'waste:'."
+        },
+        {
+            "name": "dimensions",
+            "file": "chunks\/dimensions.json",
+            "description": "Contains the dimension definitions for creating data cubes."
+        },
+        {
+            "name": "presentation",
+            "file": "chunks\/presentation.json",
+            "description": "Contains the presentation linkbase structure, defining how concepts are organized and displayed."
+        }
+    ]
+}

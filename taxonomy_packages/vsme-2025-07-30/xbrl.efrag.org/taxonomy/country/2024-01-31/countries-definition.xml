@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_Countries" xlink:label="Countries"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AD" xlink:label="AD"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AE" xlink:label="AE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AF" xlink:label="AF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AG" xlink:label="AG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AI" xlink:label="AI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AL" xlink:label="AL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AM" xlink:label="AM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AN" xlink:label="AN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AO" xlink:label="AO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AQ" xlink:label="AQ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AR" xlink:label="AR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AS" xlink:label="AS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AT" xlink:label="AT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AU" xlink:label="AU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AW" xlink:label="AW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AX" xlink:label="AX"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_AZ" xlink:label="AZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BA" xlink:label="BA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BB" xlink:label="BB"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BD" xlink:label="BD"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BE" xlink:label="BE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BF" xlink:label="BF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BG" xlink:label="BG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BH" xlink:label="BH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BI" xlink:label="BI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BJ" xlink:label="BJ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BL" xlink:label="BL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BM" xlink:label="BM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BN" xlink:label="BN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BO" xlink:label="BO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BQ" xlink:label="BQ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BR" xlink:label="BR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BS" xlink:label="BS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BT" xlink:label="BT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BU" xlink:label="BU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BV" xlink:label="BV"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BW" xlink:label="BW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BY" xlink:label="BY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_BZ" xlink:label="BZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CA" xlink:label="CA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CC" xlink:label="CC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CD" xlink:label="CD"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CF" xlink:label="CF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CG" xlink:label="CG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CH" xlink:label="CH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CI" xlink:label="CI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CK" xlink:label="CK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CL" xlink:label="CL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CM" xlink:label="CM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CN" xlink:label="CN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CO" xlink:label="CO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CR" xlink:label="CR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CS" xlink:label="CS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CU" xlink:label="CU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CV" xlink:label="CV"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CW" xlink:label="CW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CX" xlink:label="CX"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CY" xlink:label="CY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_CZ" xlink:label="CZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_DE" xlink:label="DE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_DJ" xlink:label="DJ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_DK" xlink:label="DK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_DM" xlink:label="DM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_DO" xlink:label="DO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_DZ" xlink:label="DZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_EC" xlink:label="EC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_EE" xlink:label="EE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_EG" xlink:label="EG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_EH" xlink:label="EH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ER" xlink:label="ER"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ES" xlink:label="ES"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ET" xlink:label="ET"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_FI" xlink:label="FI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_FJ" xlink:label="FJ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_FK" xlink:label="FK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_FM" xlink:label="FM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_FO" xlink:label="FO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_FR" xlink:label="FR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GA" xlink:label="GA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GB" xlink:label="GB"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GD" xlink:label="GD"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GE" xlink:label="GE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GF" xlink:label="GF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GG" xlink:label="GG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GH" xlink:label="GH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GI" xlink:label="GI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GL" xlink:label="GL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GM" xlink:label="GM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GN" xlink:label="GN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GP" xlink:label="GP"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GQ" xlink:label="GQ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GR" xlink:label="GR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GS" xlink:label="GS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GT" xlink:label="GT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GU" xlink:label="GU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GW" xlink:label="GW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_GY" xlink:label="GY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_HK" xlink:label="HK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_HM" xlink:label="HM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_HN" xlink:label="HN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_HR" xlink:label="HR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_HT" xlink:label="HT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_HU" xlink:label="HU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ID" xlink:label="ID"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IE" xlink:label="IE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IL" xlink:label="IL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IM" xlink:label="IM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IN" xlink:label="IN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IO" xlink:label="IO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IQ" xlink:label="IQ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IR" xlink:label="IR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IS" xlink:label="IS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_IT" xlink:label="IT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_JE" xlink:label="JE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_JM" xlink:label="JM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_JO" xlink:label="JO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_JP" xlink:label="JP"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KE" xlink:label="KE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KG" xlink:label="KG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KH" xlink:label="KH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KI" xlink:label="KI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KM" xlink:label="KM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KN" xlink:label="KN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KP" xlink:label="KP"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KR" xlink:label="KR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KW" xlink:label="KW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KY" xlink:label="KY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_KZ" xlink:label="KZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LA" xlink:label="LA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LB" xlink:label="LB"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LC" xlink:label="LC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LI" xlink:label="LI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LK" xlink:label="LK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LR" xlink:label="LR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LS" xlink:label="LS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LT" xlink:label="LT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LU" xlink:label="LU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LV" xlink:label="LV"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_LY" xlink:label="LY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MA" xlink:label="MA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MC" xlink:label="MC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MD" xlink:label="MD"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ME" xlink:label="ME"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MF" xlink:label="MF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MG" xlink:label="MG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MH" xlink:label="MH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MK" xlink:label="MK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ML" xlink:label="ML"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MM" xlink:label="MM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MN" xlink:label="MN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MO" xlink:label="MO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MP" xlink:label="MP"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MQ" xlink:label="MQ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MR" xlink:label="MR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MS" xlink:label="MS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MT" xlink:label="MT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MU" xlink:label="MU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MV" xlink:label="MV"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MW" xlink:label="MW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MX" xlink:label="MX"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MY" xlink:label="MY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_MZ" xlink:label="MZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NA" xlink:label="NA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NC" xlink:label="NC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NE" xlink:label="NE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NF" xlink:label="NF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NG" xlink:label="NG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NI" xlink:label="NI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NL" xlink:label="NL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NO" xlink:label="NO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NP" xlink:label="NP"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NR" xlink:label="NR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NT" xlink:label="NT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NU" xlink:label="NU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_NZ" xlink:label="NZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_OM" xlink:label="OM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PA" xlink:label="PA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PE" xlink:label="PE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PF" xlink:label="PF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PG" xlink:label="PG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PH" xlink:label="PH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PK" xlink:label="PK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PL" xlink:label="PL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PM" xlink:label="PM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PN" xlink:label="PN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PR" xlink:label="PR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PS" xlink:label="PS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PT" xlink:label="PT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PW" xlink:label="PW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_PY" xlink:label="PY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_QA" xlink:label="QA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_RE" xlink:label="RE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_RO" xlink:label="RO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_RS" xlink:label="RS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_RU" xlink:label="RU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_RW" xlink:label="RW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SA" xlink:label="SA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SB" xlink:label="SB"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SC" xlink:label="SC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SD" xlink:label="SD"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SE" xlink:label="SE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SG" xlink:label="SG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SH" xlink:label="SH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SI" xlink:label="SI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SJ" xlink:label="SJ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SK" xlink:label="SK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SL" xlink:label="SL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SM" xlink:label="SM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SN" xlink:label="SN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SO" xlink:label="SO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SR" xlink:label="SR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SS" xlink:label="SS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ST" xlink:label="ST"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SV" xlink:label="SV"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SX" xlink:label="SX"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SY" xlink:label="SY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_SZ" xlink:label="SZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TC" xlink:label="TC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TD" xlink:label="TD"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TF" xlink:label="TF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TG" xlink:label="TG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TH" xlink:label="TH"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TJ" xlink:label="TJ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TK" xlink:label="TK"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TL" xlink:label="TL"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TM" xlink:label="TM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TN" xlink:label="TN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TO" xlink:label="TO"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TP" xlink:label="TP"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TR" xlink:label="TR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TT" xlink:label="TT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TV" xlink:label="TV"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TW" xlink:label="TW"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_TZ" xlink:label="TZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_UA" xlink:label="UA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_UG" xlink:label="UG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_UM" xlink:label="UM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_US" xlink:label="US"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_UY" xlink:label="UY"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_UZ" xlink:label="UZ"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_VA" xlink:label="VA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_VC" xlink:label="VC"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_VE" xlink:label="VE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_VG" xlink:label="VG"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_VI" xlink:label="VI"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_VN" xlink:label="VN"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_VU" xlink:label="VU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_WF" xlink:label="WF"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_WS" xlink:label="WS"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_YE" xlink:label="YE"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_YT" xlink:label="YT"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_YU" xlink:label="YU"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ZA" xlink:label="ZA"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ZM" xlink:label="ZM"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ZR" xlink:label="ZR"/>
+    <link:loc xlink:type="locator" xlink:href="countries.xsd#country_ZW" xlink:label="ZW"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AD" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AE" order="2"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AF" order="3"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AG" order="4"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AI" order="5"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AL" order="6"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AM" order="7"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AN" order="8"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AO" order="9"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AQ" order="10"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AR" order="11"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AS" order="12"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AT" order="13"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AU" order="14"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AW" order="15"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AX" order="16"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="AZ" order="17"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BA" order="18"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BB" order="19"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BD" order="20"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BE" order="21"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BF" order="22"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BG" order="23"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BH" order="24"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BI" order="25"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BJ" order="26"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BL" order="27"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BM" order="28"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BN" order="29"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BO" order="30"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BQ" order="31"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BR" order="32"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BS" order="33"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BT" order="34"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BU" order="35"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BV" order="36"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BW" order="37"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BY" order="38"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="BZ" order="39"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CA" order="40"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CC" order="41"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CD" order="42"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CF" order="43"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CG" order="44"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CH" order="45"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CI" order="46"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CK" order="47"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CL" order="48"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CM" order="49"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CN" order="50"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CO" order="51"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CR" order="52"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CS" order="53"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CU" order="54"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CV" order="55"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CW" order="56"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CX" order="57"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CY" order="58"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="CZ" order="59"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="DE" order="60"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="DJ" order="61"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="DK" order="62"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="DM" order="63"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="DO" order="64"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="DZ" order="65"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="EC" order="66"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="EE" order="67"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="EG" order="68"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="EH" order="69"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ER" order="70"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ES" order="71"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ET" order="72"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="FI" order="73"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="FJ" order="74"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="FK" order="75"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="FM" order="76"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="FO" order="77"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="FR" order="78"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GA" order="79"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GB" order="80"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GD" order="81"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GE" order="82"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GF" order="83"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GG" order="84"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GH" order="85"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GI" order="86"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GL" order="87"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GM" order="88"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GN" order="89"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GP" order="90"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GQ" order="91"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GR" order="92"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GS" order="93"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GT" order="94"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GU" order="95"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GW" order="96"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="GY" order="97"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="HK" order="98"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="HM" order="99"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="HN" order="100"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="HR" order="101"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="HT" order="102"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="HU" order="103"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ID" order="104"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IE" order="105"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IL" order="106"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IM" order="107"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IN" order="108"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IO" order="109"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IQ" order="110"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IR" order="111"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IS" order="112"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="IT" order="113"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="JE" order="114"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="JM" order="115"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="JO" order="116"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="JP" order="117"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KE" order="118"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KG" order="119"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KH" order="120"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KI" order="121"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KM" order="122"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KN" order="123"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KP" order="124"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KR" order="125"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KW" order="126"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KY" order="127"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="KZ" order="128"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LA" order="129"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LB" order="130"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LC" order="131"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LI" order="132"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LK" order="133"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LR" order="134"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LS" order="135"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LT" order="136"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LU" order="137"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LV" order="138"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="LY" order="139"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MA" order="140"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MC" order="141"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MD" order="142"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ME" order="143"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MF" order="144"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MG" order="145"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MH" order="146"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MK" order="147"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ML" order="148"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MM" order="149"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MN" order="150"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MO" order="151"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MP" order="152"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MQ" order="153"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MR" order="154"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MS" order="155"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MT" order="156"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MU" order="157"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MV" order="158"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MW" order="159"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MX" order="160"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MY" order="161"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="MZ" order="162"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NA" order="163"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NC" order="164"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NE" order="165"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NF" order="166"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NG" order="167"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NI" order="168"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NL" order="169"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NO" order="170"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NP" order="171"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NR" order="172"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NT" order="173"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NU" order="174"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="NZ" order="175"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="OM" order="176"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PA" order="177"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PE" order="178"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PF" order="179"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PG" order="180"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PH" order="181"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PK" order="182"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PL" order="183"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PM" order="184"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PN" order="185"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PR" order="186"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PS" order="187"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PT" order="188"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PW" order="189"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="PY" order="190"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="QA" order="191"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="RE" order="192"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="RO" order="193"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="RS" order="194"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="RU" order="195"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="RW" order="196"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SA" order="197"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SB" order="198"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SC" order="199"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SD" order="200"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SE" order="201"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SG" order="202"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SH" order="203"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SI" order="204"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SJ" order="205"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SK" order="206"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SL" order="207"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SM" order="208"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SN" order="209"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SO" order="210"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SR" order="211"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SS" order="212"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ST" order="213"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SV" order="214"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SX" order="215"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SY" order="216"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="SZ" order="217"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TC" order="218"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TD" order="219"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TF" order="220"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TG" order="221"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TH" order="222"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TJ" order="223"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TK" order="224"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TL" order="225"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TM" order="226"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TN" order="227"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TO" order="228"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TP" order="229"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TR" order="230"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TT" order="231"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TV" order="232"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TW" order="233"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="TZ" order="234"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="UA" order="235"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="UG" order="236"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="UM" order="237"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="US" order="238"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="UY" order="239"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="UZ" order="240"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="VA" order="241"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="VC" order="242"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="VE" order="243"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="VG" order="244"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="VI" order="245"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="VN" order="246"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="VU" order="247"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="WF" order="248"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="WS" order="249"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="YE" order="250"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="YT" order="251"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="YU" order="252"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ZA" order="253"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ZM" order="254"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ZR" order="255"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Countries" xlink:to="ZW" order="256"/>
+  </link:definitionLink>
+</link:linkbase>

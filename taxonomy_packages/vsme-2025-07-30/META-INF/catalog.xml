@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
+    "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <rewriteURI uriStartString="https://xbrl.efrag.org/taxonomy/vsme/2025-07-30/"
+                rewritePrefix="../xbrl.efrag.org/taxonomy/vsme/2025-07-30/"/>
+    <rewriteURI uriStartString="https://xbrl.efrag.org/taxonomy/waste/2023-12-06/"
+                rewritePrefix="../xbrl.efrag.org/taxonomy/waste/2023-12-06/"/>
+    <rewriteURI uriStartString="https://xbrl.efrag.org/taxonomy/nace/2025-01-01/"
+                rewritePrefix="../xbrl.efrag.org/taxonomy/nace/2025-01-01/"/>
+    <rewriteURI uriStartString="https://xbrl.efrag.org/taxonomy/country/2024-01-31/"
+                rewritePrefix="../xbrl.efrag.org/taxonomy/country/2024-01-31/"/>
+</catalog>

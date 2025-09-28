@@ -1,0 +1,4026 @@
+{
+    "country:AD": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Andorra",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Principality of Andorra",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "AND",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "020"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "United Arab Emirates",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The United Arab Emirates",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ARE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "784"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Afghanistan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Islamic Republic of Afghanistan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "AFG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "004"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Antigua and Barbuda",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ATG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "028"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Anguilla",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "AIA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "660"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Albania",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Albania",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ALB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "008"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Armenia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Armenia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ARM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "051"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Netherlands Antilles (before 2010-12-15)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ANT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "530"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Angola",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Angola",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "AGO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "024"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AQ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Antarctica",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ATA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "010"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Argentina",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Argentine Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ARG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "032"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "American Samoa",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ASM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "016"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Austria",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Austria",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "AUT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "040"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Australia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "AUS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "036"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Aruba",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ABW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "533"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AX": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "\u00c5land Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AX",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ALA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "248"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:AZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Azerbaijan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Azerbaijan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "AZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "AZE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "031"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bosnia and Herzegovina",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BIH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "070"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BB": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Barbados",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BRB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "052"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BD": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bangladesh",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The People's Republic of Bangladesh",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BGD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "050"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Belgium",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Belgium",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BEL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "056"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Burkina Faso",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BFA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "854"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bulgaria",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Bulgaria",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BGR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "100"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bahrain",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Bahrain",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BHR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "048"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Burundi",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Burundi",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BDI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "108"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BJ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Benin",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Benin",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BJ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BEN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "204"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saint Barth\u00e9lemy",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BLM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "652"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bermuda",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BMU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "060"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Brunei Darussalam",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BRN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "096"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bolivia (Plurinational State of)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Plurinational State of Bolivia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BOL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "068"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BQ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bonaire, Sint Eustatius and Saba",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BES",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "535"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Brazil",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Federative Republic of Brazil",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BRA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "076"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bahamas",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Commonwealth of the Bahamas",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BHS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "044"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bhutan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Bhutan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BTN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "064"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Burma (before 1989-12-15)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BUR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "104"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BV": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Bouvet Island",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BVT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "074"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Botswana",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Botswana",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BWA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "072"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Belarus",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Belarus",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BLR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "112"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:BZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Belize",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "BZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "BLZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "084"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Canada",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CAN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "124"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cocos (Keeling) Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CCK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "166"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CD": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Congo (the Democratic Republic of the)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Democratic Republic of the Congo",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "COD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "180"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Central African Republic",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Central African Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CAF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "140"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Congo",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of the Congo",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "COG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "178"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Switzerland",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Swiss Confederation",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CHE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "756"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "C\u00f4te d'Ivoire",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of C\u00f4te d'Ivoire",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CIV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "384"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cook Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "COK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "184"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Chile",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Chile",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CHL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "152"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cameroon",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Cameroon",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CMR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "120"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "China",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The People's Republic of China",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CHN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "156"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Colombia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Colombia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "COL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "170"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Costa Rica",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Costa Rica",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CRI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "188"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Serbia and Montenegro (before 2006-09-26)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SCG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "891"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cuba",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Cuba",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CUB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "192"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CV": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cabo Verde",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Cabo Verde",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CPV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "132"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cura\u00e7ao",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CUW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "531"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CX": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Christmas Island",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CX",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CXR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "162"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cyprus",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Cyprus",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CYP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "196"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Czechia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Czech Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "CZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CZE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "203"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:CountryDomain": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Country [Domain]"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:DE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Germany",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Federal Republic of Germany",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "DE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "DEU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "276"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:DJ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Djibouti",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Djibouti",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "DJ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "DJI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "262"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:DK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Denmark",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Denmark",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "DK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "DNK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "208"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:DM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Dominica",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Commonwealth of Dominica",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "DM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "DMA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "212"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:DO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Dominican Republic",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Dominican Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "DO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "DOM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "214"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:DZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Algeria",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The People's Democratic Republic of Algeria",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "DZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "DZA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "012"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:EC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Ecuador",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Ecuador",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "EC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ECU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "218"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:EE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Estonia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Estonia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "EE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "EST",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "233"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:EG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Egypt",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Arab Republic of Egypt",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "EG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "EGY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "818"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:EH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Western Sahara*",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "EH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ESH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "732"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ER": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Eritrea",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The State of Eritrea",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ER",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ERI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "232"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ES": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Spain",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Spain",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ES",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ESP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "724"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ET": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Ethiopia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Federal Democratic Republic of Ethiopia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ET",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ETH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "231"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:FI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Finland",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Finland",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "FI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "FIN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "246"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:FJ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Fiji",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Fiji",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "FJ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "FJI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "242"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:FK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Falkland Islands (the) [Malvinas]",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "FK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "FLK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "238"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:FM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Micronesia (Federated States of)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Federated States of Micronesia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "FM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "FSM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "583"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:FO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Faroe Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "FO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "FRO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "234"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:FR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "France",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The French Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "FR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "FRA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "250"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Gabon",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Gabonese Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GAB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "266"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GB": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "United Kingdom of Great Britain and Northern Ireland",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The United Kingdom of Great Britain and Northern Ireland",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GBR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "826"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GD": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Grenada",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GRD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "308"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Georgia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GEO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "268"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "French Guiana",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GUF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "254"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Guernsey",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GGY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "831"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Ghana",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Ghana",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GHA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "288"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Gibraltar",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GIB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "292"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Greenland",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GRL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "304"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Gambia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of the Gambia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GMB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "270"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Guinea",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Guinea",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GIN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "324"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GP": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Guadeloupe",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GLP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "312"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GQ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Equatorial Guinea",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Equatorial Guinea",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GNQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "226"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Greece",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Hellenic Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GRC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "300"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "South Georgia and the South Sandwich Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SGS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "239"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Guatemala",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Guatemala",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GTM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "320"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Guam",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GUM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "316"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Guinea-Bissau",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Guinea-Bissau",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GNB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "624"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:GY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Guyana",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Co-operative Republic of Guyana",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "GY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "GUY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "328"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:HK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Hong Kong",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Hong Kong Special Administrative Region of China",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "HK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "HKG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "344"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:HM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Heard Island and McDonald Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "HM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "HMD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "334"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:HN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Honduras",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Honduras",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "HN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "HND",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "340"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:HR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Croatia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Croatia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "HR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "HRV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "191"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:HT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Haiti",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Haiti",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "HT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "HTI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "332"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:HU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Hungary",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "HU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "HUN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "348"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ID": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Indonesia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Indonesia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ID",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "IDN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "360"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Ireland",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "IRL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "372"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Israel",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The State of Israel",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ISR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "376"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Isle of Man",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "IMN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "833"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "India",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of India",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "IND",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "356"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "British Indian Ocean Territory",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "IOT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "086"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IQ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Iraq",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Iraq",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "IRQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "368"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Iran (Islamic Republic of)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Islamic Republic of Iran",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "IRN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "364"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Iceland",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ISL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "352"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:IT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Italy",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Italy",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "IT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ITA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "380"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:JE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Jersey",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "JE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "JEY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "832"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:JM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Jamaica",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "JM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "JAM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "388"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:JO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Jordan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Hashemite Kingdom of Jordan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "JO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "JOR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "400"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:JP": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Japan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "JP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "JPN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "392"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Kenya",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Kenya",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KEN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "404"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Kyrgyzstan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kyrgyz Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KGZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "417"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cambodia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Cambodia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KHM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "116"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Kiribati",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Kiribati",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KIR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "296"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Comoros",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Union of the Comoros",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "COM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "174"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saint Kitts and Nevis",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KNA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "659"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KP": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Korea (the Democratic People's Republic of)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Democratic People's Republic of Korea",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PRK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "408"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Korea (the Republic of)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Korea",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KOR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "410"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Kuwait",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The State of Kuwait",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KWT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "414"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Cayman Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "CYM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "136"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:KZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Kazakhstan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Kazakhstan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "KZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "KAZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "398"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Lao People's Democratic Republic",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Lao People's Democratic Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LAO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "418"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LB": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Lebanon",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Lebanese Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LBN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "422"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saint Lucia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LCA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "662"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Liechtenstein",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Principality of Liechtenstein",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LIE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "438"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Sri Lanka",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Democratic Socialist Republic of Sri Lanka",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LKA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "144"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Liberia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Liberia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LBR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "430"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Lesotho",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Lesotho",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LSO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "426"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Lithuania",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Lithuania",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LTU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "440"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Luxembourg",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Grand Duchy of Luxembourg",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LUX",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "442"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LV": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Latvia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Latvia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LVA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "428"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:LY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Libya",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The State of Libya",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "LY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "LBY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "434"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Morocco",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Morocco",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MAR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "504"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Monaco",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Principality of Monaco",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MCO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "492"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MD": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Moldova (the Republic of)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Moldova",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MDA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "498"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ME": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Montenegro",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ME",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MNE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "499"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saint Martin (French part)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MAF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "663"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Madagascar",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Madagascar",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MDG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "450"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Marshall Islands",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of the Marshall Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MHL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "584"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "North Macedonia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of North Macedonia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MKD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "807"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ML": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Mali",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Mali",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ML",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MLI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "466"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Myanmar",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of the Union of Myanmar",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MMR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "104"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Mongolia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MNG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "496"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Macao",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "Macao Special Administrative Region of China",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MAC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "446"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MP": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Northern Mariana Islands",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Commonwealth of the Northern Mariana Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MNP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "580"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MQ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Martinique",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MTQ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "474"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Mauritania",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Islamic Republic of Mauritania",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MRT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "478"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Montserrat",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MSR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "500"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Malta",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Malta",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MLT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "470"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Mauritius",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Mauritius",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MUS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "480"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MV": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Maldives",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Maldives",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MDV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "462"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Malawi",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Malawi",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MWI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "454"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MX": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Mexico",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The United Mexican States",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MX",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MEX",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "484"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Malaysia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MYS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "458"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:MZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Mozambique",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Mozambique",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "MZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MOZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "508"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Namibia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Namibia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NAM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "516"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "New Caledonia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NCL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "540"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Niger",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of the Niger",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NER",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "562"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Norfolk Island",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NFK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "574"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Nigeria",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Federal Republic of Nigeria",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NGA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "566"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Nicaragua",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Nicaragua",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NIC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "558"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Netherlands (Kingdom of the)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of the Netherlands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NLD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "528"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Norway",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Norway",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NOR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "578"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NP": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Nepal",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NPL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "524"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Nauru",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Nauru",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NRU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "520"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Neutral Zone (before 1993-07-12)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NTZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "536"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Niue",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NIU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "570"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:NZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "New Zealand",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "NZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "NZL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "554"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:OM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Oman",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Sultanate of Oman",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "OM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "OMN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "512"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Panama",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Panama",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PAN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "591"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Peru",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Peru",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PER",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "604"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "French Polynesia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PYF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "258"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Papua New Guinea",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Independent State of Papua New Guinea",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PNG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "598"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Philippines",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of the Philippines",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PHL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "608"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Pakistan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Islamic Republic of Pakistan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PAK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "586"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Poland",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Poland",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "POL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "616"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saint Pierre and Miquelon",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SPM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "666"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Pitcairn",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PCN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "612"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Puerto Rico",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PRI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "630"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Palestine, State of",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The State of Palestine",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PSE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "275"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Portugal",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Portuguese Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PRT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "620"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Palau",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Palau",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PLW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "585"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:PY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Paraguay",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Paraguay",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "PY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "PRY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "600"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:QA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Qatar",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The State of Qatar",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "QA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "QAT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "634"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:RE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "R\u00e9union",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "RE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "REU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "638"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:RO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Romania",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "RO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ROU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "642"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:RS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Serbia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Serbia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "RS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SRB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "688"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:RU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Russian Federation",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Russian Federation",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "RU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "RUS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "643"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:RW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Rwanda",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Rwanda",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "RW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "RWA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "646"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saudi Arabia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Saudi Arabia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SAU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "682"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SB": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Solomon Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SLB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "090"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Seychelles",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Seychelles",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SYC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "690"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SD": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Sudan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of the Sudan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SDN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "729"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Sweden",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Sweden",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SWE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "752"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Singapore",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Singapore",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SGP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "702"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saint Helena, Ascension and Tristan da Cunha",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SHN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "654"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Slovenia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Slovenia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SVN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "705"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SJ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Svalbard and Jan Mayen",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SJ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SJM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "744"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Slovakia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Slovak Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SVK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "703"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Sierra Leone",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Sierra Leone",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SLE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "694"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "San Marino",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of San Marino",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SMR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "674"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Senegal",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Senegal",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SEN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "686"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Somalia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Federal Republic of Somalia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SOM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "706"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Suriname",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Suriname",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SUR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "740"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "South Sudan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of South Sudan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SSD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "728"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ST": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Sao Tome and Principe",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Democratic Republic of Sao Tome and Principe",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ST",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "STP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "678"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SV": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "El Salvador",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of El Salvador",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SLV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "222"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SX": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Sint Maarten (Dutch part)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SX",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SXM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "534"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Syrian Arab Republic",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Syrian Arab Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SYR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "760"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:SZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Eswatini",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Eswatini",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "SZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "SWZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "748"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Turks and Caicos Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TCA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "796"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TD": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Chad",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Chad",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TCD",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "148"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "French Southern Territories",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ATF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "260"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Togo",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Togolese Republic",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TGO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "768"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TH": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Thailand",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Thailand",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TH",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "THA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "764"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TJ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Tajikistan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Tajikistan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TJ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TJK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "762"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TK": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Tokelau",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TK",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TKL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "772"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TL": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Timor-Leste",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Democratic Republic of Timor-Leste",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TL",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TLS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "626"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Turkmenistan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TKM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "795"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Tunisia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Tunisia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TUN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "788"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TO": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Tonga",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Kingdom of Tonga",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TON",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "776"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TP": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "East Timor (before 2002-05-20)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TMP",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "626"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "T\u00fcrkiye",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of T\u00fcrkiye",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TUR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "792"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Trinidad and Tobago",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Trinidad and Tobago",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TTO",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "780"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TV": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Tuvalu",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TUV",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "798"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Taiwan (Province of China)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TWN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "158"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:TZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Tanzania, the United Republic of",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The United Republic of Tanzania",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "TZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "TZA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "834"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:UA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Ukraine",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "UA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "UKR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "804"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:UG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Uganda",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Uganda",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "UG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "UGA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "800"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:UM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "United States Minor Outlying Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "UM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "UMI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "581"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:US": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "United States of America",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The United States of America",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "US",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "USA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "840"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:UY": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Uruguay",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Eastern Republic of Uruguay",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "UY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "URY",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "858"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:UZ": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Uzbekistan",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Uzbekistan",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "UZ",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "UZB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "860"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:VA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Holy See",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "VA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "VAT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "336"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:VC": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Saint Vincent and the Grenadines",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "VC",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "VCT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "670"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:VE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Venezuela (Bolivarian Republic of)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Bolivarian Republic of Venezuela",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "VE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "VEN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "862"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:VG": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Virgin Islands (British)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "British Virgin Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "VG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "VGB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "092"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:VI": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Virgin Islands (U.S.)",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Virgin Islands of the United States",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "VI",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "VIR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "850"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:VN": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Viet Nam",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Socialist Republic of Viet Nam",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "VN",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "VNM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "704"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:VU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Vanuatu",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Vanuatu",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "VU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "VUT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "548"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:WF": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Wallis and Futuna",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "Wallis and Futuna Islands",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "WF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "WLF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "876"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:WS": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Samoa",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Independent State of Samoa",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "WS",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "WSM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "882"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:YE": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Yemen",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Yemen",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "YE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "YEM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "887"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:YT": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Mayotte",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "YT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "MYT",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "175"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:YU": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Yugoslavia (before 2003-07-23)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "YU",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "YUG",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "891"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ZA": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "South Africa",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of South Africa",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ZA",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ZAF",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "710"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ZM": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Zambia",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Zambia",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ZM",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ZMB",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "894"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ZR": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Zaire (before 1997-07-14)",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ZR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ZAR",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "180"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    },
+    "country:ZW": {
+        "abstract": true,
+        "baseDataType": "xbrli:stringItemType",
+        "dataType": "dtr-types-2022:domainItemType",
+        "labels": {
+            "en": {
+                "http:\/\/www.xbrl.org\/2003\/role\/label": "Zimbabwe",
+                "http:\/\/www.xbrl.org\/2003\/role\/verboseLabel": "The Republic of Zimbabwe",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha2CodeLabel": "ZW",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/alpha3CodeLabel": "ZWE",
+                "https:\/\/xbrl.org\/taxonomy\/int\/codelist-common\/2024\/role\/numericCodeLabel": "716"
+            }
+        },
+        "nillable": true,
+        "periodType": "duration"
+    }
+}

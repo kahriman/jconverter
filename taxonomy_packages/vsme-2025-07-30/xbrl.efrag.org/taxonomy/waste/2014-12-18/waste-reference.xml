@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:vsme="https://xbrl.efrag.org/taxonomy/vsme/2024-12-17/vsme" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+      <link:loc xlink:type="locator" xlink:href="waste.xsd#waste_W-WasteCategoriesMember" xlink:label="loc_waste_W-WasteCategoriesMember"/>
+  <link:reference xlink:type="resource" xlink:label="ref_waste_W-WasteCategoriesMember" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>COMMISSION DECISION of 18 December 2014 amending Decision 2000/532/EC on the list of waste pursuant to Directive 2008/98/EC of the European Parliament and of the Council (2014/955/EU)</ref:Name>
+      <ref:Section>ANNEX</ref:Section>
+      <ref:Number></ref:Number>
+      <ref:Paragraph></ref:Paragraph>
+      <ref:Subparagraph></ref:Subparagraph>
+      <ref:URI>https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014D0955</ref:URI>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_waste_W-WasteCategoriesMember" xlink:to="ref_waste_W-WasteCategoriesMember" xlink:title="reference: loc_waste_W-WasteCategoriesMember to ref_waste_W-WasteCategoriesMember"/>
+  </link:referenceLink>
+</link:linkbase>

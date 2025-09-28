@@ -59,7 +59,13 @@ def createArgParser() -> argparse.ArgumentParser:
 def parseArgs(parser: argparse.ArgumentParser) -> argparse.Namespace:
     """Parse command line arguments and validate inputs."""
     args = parser.parse_args()
-    
+
+    if args.taxonomy_packages:
+        args.taxonomy_packages = validateTaxonomyPackages(
+            args.taxonomy_packages,
+            parser,
+        )
+
     # Validate JSON file exists
     if not args.json_file.exists():
         parser.error(f"JSON file not found: {args.json_file}")
@@ -135,7 +141,9 @@ def doConversion(args: argparse.Namespace) -> tuple[ConversionResults, JsonProce
             "Validating Inline Report",
             additionalInfo=f"Using Arelle (XBRL Certified Software™) [{ARELLE_VERSION_INFORMATION}]",
         )
-        arelle = ArelleReportProcessor()
+        arelle = ArelleReportProcessor(
+            taxonomyPackages=args.taxonomy_packages,
+        )
         arelle_results = arelle.validateReportPackage(reportPackage)
         resultsBuilder.addMessages(arelle_results.messages)
 
@@ -195,10 +203,6 @@ def main() -> None:
     
     parser = createArgParser()
     args = parseArgs(parser)
-    
-    # Validate taxonomy packages if specified
-    if args.taxonomy_packages is not None:
-        validateTaxonomyPackages(args.taxonomy_packages)
     
     try:
         result, json_processor = doConversion(args)

@@ -415,42 +415,11 @@ class JsonProcessor:
                         
                         # Handle unit setting
                         unit_set = False
-                        
+
                         # 1. Try explicit unit from JSON
                         if unit:
-                            try:
-                                # Map common unit strings to QNames
-                                unit_mappings = {
-                                    'tCO2e': 'utr:tCO2e',
-                                    'MWh': 'utr:MWh',
-                                    't': 'utr:t',
-                                    'kg': 'utr:kg',
-                                    'm3': 'utr:m3',
-                                    'ha': 'utr:ha',
-                                    '%': 'xbrli:pure',
-                                    'EUR': 'iso4217:EUR',
-                                    'USD': 'iso4217:USD'
-                                }
-                                unit_qname_str = unit_mappings.get(unit, unit)
-                                unit_qname = self.taxonomy.QNameMaker.fromString(unit_qname_str)
-                                
-                                # Validate unit against concept's data type
-                                if self.taxonomy.UTR.valid(concept.dataType, unit_qname):
-                                    fb.setSimpleUnit(unit_qname)
-                                    unit_set = True
-                                else:
-                                    self._results.addMessage(
-                                        f"Unit '{unit}' is not valid for concept {concept.qname} with dataType {concept.dataType}",
-                                        Severity.WARNING,
-                                        MessageType.ExcelParsing,
-                                    )
-                            except Exception as e:
-                                self._results.addMessage(
-                                    f"Failed to set unit '{unit}' for concept {concept.qname}: {e}",
-                                    Severity.WARNING,
-                                    MessageType.ExcelParsing,
-                                )
-                        
+                            unit_set = self._apply_unit_from_json(fb, concept, unit)
+
                         # 2. Try monetary units
                         if not unit_set and concept.isMonetary:
                             currency = self._jsonData.get('metadata', {}).get('currency', 'EUR')
@@ -500,15 +469,32 @@ class JsonProcessor:
                     # Handle enumeration values
                     str_value = str(value)
                     enum_concept = self.taxonomy.getConceptForLabel(str_value)
-                    
-                    # Try fallback mapping
+
+                    # Try fallback mapping (legacy strings)
                     if enum_concept is None and str_value in self._configCellValuesToTaxonomyLabels:
                         fallback_label = self._configCellValuesToTaxonomyLabels[str_value]
                         enum_concept = self.taxonomy.getConceptForLabel(fallback_label)
-                    
+
+                    # Try QName or concept name lookups for vsme:* values
+                    if enum_concept is None and ':' in str_value:
+                        try:
+                            enum_concept = self.taxonomy.getConcept(str_value)
+                        except KeyError:
+                            try:
+                                enum_concept = self.taxonomy.getConceptForName(str_value)
+                            except Exception:
+                                enum_concept = None
+
+                    if enum_concept is None:
+                        try:
+                            enum_concept = self.taxonomy.getConceptForName(str_value)
+                        except Exception:
+                            enum_concept = None
+
                     if enum_concept:
                         fb.setHiddenValue(enum_concept.expandedName)
-                        fb.setValue(str_value)  # Set the original value as the fact value
+                        display_value = enum_concept.getStandardLabel() or str_value
+                        fb.setValue(display_value)
                     else:
                         self._results.addMessage(
                             f"Could not find enumeration member for value '{str_value}' in concept {concept.qname}",
@@ -543,6 +529,131 @@ class JsonProcessor:
                     Severity.ERROR,
                     MessageType.ExcelParsing,
                 )
+
+    def _apply_unit_from_json(self, fact_builder: FactBuilder, concept: Concept, unit: Any) -> bool:
+        """Attempt to apply a unit provided by the JSON payload."""
+        unit_mappings = {
+            'tCO2e': 'utr:tCO2e',
+            'MWh': 'utr:MWh',
+            't': 'utr:t',
+            'kg': 'utr:kg',
+            'm3': 'utr:m3',
+            'ha': 'utr:ha',
+            '%': 'xbrli:pure',
+            'EUR': 'iso4217:EUR',
+            'USD': 'iso4217:USD',
+        }
+
+        # Handle unit definitions provided as dicts (numerator/denominator or ids)
+        if isinstance(unit, dict):
+            unit_id = unit.get('id') or unit.get('unitId')
+            if unit_id and unit_id in self._configUnitIdsToMeasures:
+                complex_unit = self._configUnitIdsToMeasures[unit_id]
+                fact_builder.setComplexUnit(complex_unit.numerator, complex_unit.denominator)
+                return True
+
+            complex_unit = self._build_complex_unit(unit)
+            if complex_unit is not None:
+                fact_builder.setComplexUnit(complex_unit.numerator, complex_unit.denominator)
+                return True
+
+            unit = unit.get('value') or unit.get('name')
+            if not unit:
+                return False
+
+        # Handle strings (unit ids, qnames, or complex string forms)
+        unit_str = str(unit).strip()
+        if not unit_str:
+            return False
+
+        if unit_str in self._configUnitIdsToMeasures:
+            complex_unit = self._configUnitIdsToMeasures[unit_str]
+            fact_builder.setComplexUnit(complex_unit.numerator, complex_unit.denominator)
+            return True
+
+        if '/' in unit_str:
+            complex_unit = self._build_complex_unit({'numerator': unit_str.split('/', 1)[0], 'denominator': unit_str.split('/', 1)[1]})
+            if complex_unit is not None:
+                fact_builder.setComplexUnit(complex_unit.numerator, complex_unit.denominator)
+                return True
+
+        mapped_unit = unit_mappings.get(unit_str, unit_str)
+        qname = self._to_qname(mapped_unit)
+        if qname is not None:
+            if self.taxonomy.UTR.valid(concept.dataType, qname):
+                fact_builder.setSimpleUnit(qname)
+                return True
+            self._results.addMessage(
+                f"Unit '{unit_str}' is not valid for concept {concept.qname} with dataType {concept.dataType}",
+                Severity.WARNING,
+                MessageType.ExcelParsing,
+            )
+
+        return False
+
+    def _build_complex_unit(self, unit_data: dict[str, Any]) -> ComplexUnit | None:
+        """Construct a ComplexUnit from JSON data (numerator/denominator)."""
+        numerators_raw = unit_data.get('numerator') or unit_data.get('numerators')
+        denominators_raw = unit_data.get('denominator') or unit_data.get('denominators')
+
+        numerators = self._to_qname_list(numerators_raw)
+        denominators = self._to_qname_list(denominators_raw)
+
+        if numerators and denominators:
+            return ComplexUnit(numerator=numerators, denominator=denominators)
+
+        self._results.addMessage(
+            f"Failed to build complex unit from value '{unit_data}'",
+            Severity.WARNING,
+            MessageType.ExcelParsing,
+        )
+        return None
+
+    def _to_qname_list(self, measures: Any) -> list[QName]:
+        if measures is None:
+            return []
+
+        if isinstance(measures, (list, tuple, set)):
+            iterable = measures
+        else:
+            iterable = [measures]
+
+        qnames: list[QName] = []
+        for measure in iterable:
+            if measure is None:
+                continue
+            qname = self._to_qname(str(measure).strip())
+            if qname is not None:
+                qnames.append(qname)
+
+        return qnames
+
+    def _to_qname(self, measure: str) -> QName | None:
+        if not measure:
+            return None
+
+        # Direct lookup via UTR unit identifiers
+        qname = self.taxonomy.UTR.getQNameForUnitId(measure)
+        if qname is not None:
+            return qname
+
+        # Attempt parsing as prefixed QName
+        if ':' in measure:
+            try:
+                return self.taxonomy.QNameMaker.fromString(measure)
+            except Exception:
+                prefix, local = measure.split(':', 1)
+                qname = self.taxonomy.UTR.getQNameForUnitId(local)
+                if qname is not None:
+                    return qname
+
+        # Fallback to common namespaces
+        try:
+            return self.taxonomy.QNameMaker.fromString(f'utr:{measure}')
+        except Exception:
+            pass
+
+        return None
 
     def createTableFacts(self) -> None:
         """Create table-based XBRL facts."""

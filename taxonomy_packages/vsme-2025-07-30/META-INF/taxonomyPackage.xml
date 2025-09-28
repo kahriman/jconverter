@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tp:taxonomyPackage
+    xml:lang="en"
+    xmlns:tp="http://xbrl.org/2016/taxonomy-package"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+  <tp:identifier>https://xbrl.efrag.org/taxonomy/vsme/2025-07-30</tp:identifier> 
+  <tp:name>VSME XBRL Taxonomy</tp:name>
+  <tp:description>XBRL Taxonomy reflecting the Voluntary Sustainability Reporting Standards for non-listed SMEs (VSME) as published by ERAG on 17 December 2024.</tp:description>
+  <tp:version>2025-07-30</tp:version>
+  <tp:publisher>EFRAG</tp:publisher>
+  <tp:publisherURL>https://www.efrag.org/</tp:publisherURL>
+  <tp:publisherCountry>BE</tp:publisherCountry>
+  <tp:publicationDate>2025-05-27</tp:publicationDate>
+  <tp:entryPoints>
+    <!--<tp:entryPoint>
+      <tp:name>VSME Core entry point</tp:name>
+      <tp:description>Element definitions, labels and reference for taxonomy extension purpose</tp:description>
+      <tp:entryPointDocument href="https://xbrl.efrag.org/taxonomy/vsme/2025-07-30/vsme-core.xsd"/>
+    </tp:entryPoint>-->
+    <tp:entryPoint>
+      <tp:name>VSME All reporting entry point</tp:name>
+      <tp:description>To be used for reporting, includes elements, presentation, definition and calculation linkbases.</tp:description>
+      <tp:entryPointDocument href="https://xbrl.efrag.org/taxonomy/vsme/2025-07-30/vsme-all.xsd"/>
+    </tp:entryPoint>
+  </tp:entryPoints>
+</tp:taxonomyPackage>

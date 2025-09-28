@@ -1,0 +1,3 @@
+<html lang="de"> <head> <meta content="origin" name="referrer">  <script nonce="owxwQdnf8Jnu_PFMg4eLKA">window.google = {};(function(){
+var d=/^\s*(?!javascript:)(?:[\w+.-]+:|[^:/?#]*(?:[/?#]|$))/i;
+(this||self).google.navigateTo=function(a,c,b){!/\/.*?[&?]gsc=1/.test(c.location.href)&&a!==c&&a.google?a.google.r&&(a.google.r=0,a=a.location,b=d.test(b)?b:void 0,b!==void 0&&(a.href=b),c.location.replace("about:blank")):c.location.replace(b)};}).call(this);(function(){var redirectUrl='https://xbrl.sec.gov/country/2025/country-2025.xsd';google.navigateTo(parent,window,redirectUrl);})();</script> <noscript> <meta content="0;url=https://xbrl.sec.gov/country/2025/country-2025.xsd" http-equiv="refresh"> </noscript> </head>  </html>
